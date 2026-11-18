@@ -71,20 +71,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.23.1",
-        "versionCode": 55,
-        "tag": "filemanager-v0.23.1",
-        "releaseName": "瑤芯檔案管理器 0.23.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.23.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.23.1/yaoxin-filemanager-0.23.1.apk",
-        "assetName": "yaoxin-filemanager-0.23.1.apk",
-        "sha256": "b31e5d677b29bacbacbcb83596b7a436050e0a1ba2354c4525cb010abacd87e1",
-        "sizeBytes": 10770592,
-        "publishedAt": "2026-11-18T18:08:06Z",
-        "changelog": "瑤芯檔案管理器 0.23.1 首次上架瑤芯應用商店。",
+        "versionName": "0.24.0",
+        "versionCode": 56,
+        "tag": "filemanager-v0.24.0",
+        "releaseName": "瑤芯檔案管理器 0.24.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.24.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.24.0/yaoxin-filemanager-0.24.0.apk",
+        "assetName": "yaoxin-filemanager-0.24.0.apk",
+        "sha256": "f3b5566a0608ed34ca7d175fff2479d0637f9401ff21cbb5fbe53554977fa8ff",
+        "sizeBytes": 10786976,
+        "publishedAt": "2026-11-18T18:36:18Z",
+        "changelog": "### 四項已知問題\n\n- **壓縮檔內圖片預覽**：ZIP/CBZ 內的圖片現在有縮圖，點按直接開啟既有圖片檢視器，\n  可上一張／下一張；只把目前 ZIP 資料夾的圖片解到 cache，不整包解壓。\n  - 多層資料夾可分層瀏覽；縮圖使用取樣與 LRU 快取。\n  - 限制單檔 64 MiB、總量 256 MiB、120 張、50,000 個 entry，阻擋 zip slip 與\n    zip bomb；加密／損壞／不支援項目逐項提示。\n  - RAR/7Z 目前沒有內建解碼器（專案原本只支援 ZIP），點按時明確提示並交外部 App；\n    不再假裝可預覽。\n- **長檔名重新命名**：改為單行水平捲動輸入框，預設選取主檔名、不選副檔名；\n  顯示 UTF-8 byte 數；失敗保留原輸入與錯誤訊息；支援中文、英文、Emoji 與組合字元。\n- **重新命名後置頂消失**：新增共用的 `PathChanges` 路徑重映射；置頂、收藏、最近使用、\n  `.nomedia` 標記、分頁路徑／選取、剪貼簿、檢視器都在同一個入口同步。\n- **重新命名資料夾後剪貼簿失效**：剪下／複製的來源路徑會隨上層資料夾或檔案本身\n  重新命名而更新；移動部分失敗時只保留失敗項目，不會清空整個剪貼簿。\n  - 貼上前檢查來源是否存在；失敗顯示實際原因。\n  - 移動成功回傳舊→新映射，供置頂／分頁／最近使用同步。\n\n### 品質巡檢與安全修正\n\n- 資料夾複製／移動到自己的子資料夾會直接拒絕，不會遞迴複製或誤刪來源。\n- 移動覆蓋同名目標時，若複製或刪除失敗會還原原目標；備份路徑保留於錯誤訊息。\n- 重新命名改為真正的檔名驗證：拒絕 `/`、`.`、`..`、控制字元與超過 255 UTF-8 bytes，\n  不再靜默把 `/` 換成 `_`。\n- 解壓增加 100,000 entry／8 GiB 上限，超過即停止並清理半截檔案。\n- 縮圖快取 key 加入檔案 mtime／size，檔案修改後不會拿到舊圖；刪除／改名會清舊 key。\n- ZIP 瀏覽器遇到加密／損壞檔會顯示錯誤，不再默默顯示空資料夾。\n\n### 回歸\n\n- 既有置頂群組、排序、搜尋、分類、多選、PickerActivity、DocumentsProvider、\n  APK 圖示、縮圖、回收站與跨分頁操作保留。\n- 新增 `PathChangesTest`、`FileNameTest`、`ZipPreviewTest`、`FileOpsPathSafetyTest`、\n  `TabModelPathTest`，連同原有測試共 **99 項（1 skipped）**。\n- 實機 UI 操作仍需使用者依 `docs/TEST_PLAN_0.24.0.md` 驗證；未驗證項目會在交付報告標明。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.24.0",
+          "versionCode": 56,
+          "tag": "filemanager-v0.24.0",
+          "releaseName": "瑤芯檔案管理器 0.24.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.24.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.24.0/yaoxin-filemanager-0.24.0.apk",
+          "assetName": "yaoxin-filemanager-0.24.0.apk",
+          "sha256": "f3b5566a0608ed34ca7d175fff2479d0637f9401ff21cbb5fbe53554977fa8ff",
+          "sizeBytes": 10786976,
+          "publishedAt": "2026-11-18T18:36:18Z",
+          "changelog": "### 四項已知問題\n\n- **壓縮檔內圖片預覽**：ZIP/CBZ 內的圖片現在有縮圖，點按直接開啟既有圖片檢視器，\n  可上一張／下一張；只把目前 ZIP 資料夾的圖片解到 cache，不整包解壓。\n  - 多層資料夾可分層瀏覽；縮圖使用取樣與 LRU 快取。\n  - 限制單檔 64 MiB、總量 256 MiB、120 張、50,000 個 entry，阻擋 zip slip 與\n    zip bomb；加密／損壞／不支援項目逐項提示。\n  - RAR/7Z 目前沒有內建解碼器（專案原本只支援 ZIP），點按時明確提示並交外部 App；\n    不再假裝可預覽。\n- **長檔名重新命名**：改為單行水平捲動輸入框，預設選取主檔名、不選副檔名；\n  顯示 UTF-8 byte 數；失敗保留原輸入與錯誤訊息；支援中文、英文、Emoji 與組合字元。\n- **重新命名後置頂消失**：新增共用的 `PathChanges` 路徑重映射；置頂、收藏、最近使用、\n  `.nomedia` 標記、分頁路徑／選取、剪貼簿、檢視器都在同一個入口同步。\n- **重新命名資料夾後剪貼簿失效**：剪下／複製的來源路徑會隨上層資料夾或檔案本身\n  重新命名而更新；移動部分失敗時只保留失敗項目，不會清空整個剪貼簿。\n  - 貼上前檢查來源是否存在；失敗顯示實際原因。\n  - 移動成功回傳舊→新映射，供置頂／分頁／最近使用同步。\n\n### 品質巡檢與安全修正\n\n- 資料夾複製／移動到自己的子資料夾會直接拒絕，不會遞迴複製或誤刪來源。\n- 移動覆蓋同名目標時，若複製或刪除失敗會還原原目標；備份路徑保留於錯誤訊息。\n- 重新命名改為真正的檔名驗證：拒絕 `/`、`.`、`..`、控制字元與超過 255 UTF-8 bytes，\n  不再靜默把 `/` 換成 `_`。\n- 解壓增加 100,000 entry／8 GiB 上限，超過即停止並清理半截檔案。\n- 縮圖快取 key 加入檔案 mtime／size，檔案修改後不會拿到舊圖；刪除／改名會清舊 key。\n- ZIP 瀏覽器遇到加密／損壞檔會顯示錯誤，不再默默顯示空資料夾。\n\n### 回歸\n\n- 既有置頂群組、排序、搜尋、分類、多選、PickerActivity、DocumentsProvider、\n  APK 圖示、縮圖、回收站與跨分頁操作保留。\n- 新增 `PathChangesTest`、`FileNameTest`、`ZipPreviewTest`、`FileOpsPathSafetyTest`、\n  `TabModelPathTest`，連同原有測試共 **99 項（1 skipped）**。\n- 實機 UI 操作仍需使用者依 `docs/TEST_PLAN_0.24.0.md` 驗證；未驗證項目會在交付報告標明。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.23.1",
           "versionCode": 55,
@@ -246,5 +260,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T18:08:34Z"
+  "generatedAt": "2026-11-18T18:36:23Z"
 }
