@@ -121,20 +121,34 @@
       "packageName": "tw.dafeiyu.mangatranslator",
       "tagPrefix": "manga",
       "latest": {
-        "versionName": "0.1.0",
-        "versionCode": 1,
-        "tag": "manga-v0.1.0",
-        "releaseName": "瑤芯漫畫翻譯 0.1.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.1.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.1.0/yaoxin-manga-0.1.0.apk",
-        "assetName": "yaoxin-manga-0.1.0.apk",
-        "sha256": "f126d90efc3946cbd81c766162c153cc70d06b7bfcea6105e67aaea8f0595338",
-        "sizeBytes": 19762894,
-        "publishedAt": "2026-11-18T20:52:26Z",
-        "changelog": "首個版本。\n\n### 功能\n- 匯入漫畫 ZIP / CBZ：保留資料夾與自然頁序（1, 2, 3, 10），支援中文／日文檔名。\n- 本機 OCR、擦字與嵌字：Yakuyomi NCNN（DBNet、48px CTC、AOT-GAN），圖片不離開手機。\n- Venice AI 翻譯（預設 `venice-uncensored-1-2`），也可自訂 OpenAI 相容端點。\n- 忠實成人漫畫翻譯規則；固定對話框 ID，漏譯／重複 ID 會標記失敗並保留原圖。\n- 逐頁進度、暫停／續傳、失敗重試、手動修改譯文重新嵌字、局部重新辨識。\n- 匯出繁中 ZIP：頁序正確、原檔不覆蓋、失敗頁保留原圖。\n- 本機引擎自測：不用 API Key 也能先確認 OCR／擦字／嵌字。\n\n### 首次使用\n- 需下載約 248 MB 翻譯模型（App 內下載並校驗 SHA-256）。\n- 需自備 Venice API Key（存在 Android Keystore 加密區）。\n\n### 注意\n- 目前為 arm64-v8a，Android 8.0 以上。\n- 翻譯需要網路；OCR 與圖片處理全部在本機。",
+        "versionName": "0.2.0",
+        "versionCode": 2,
+        "tag": "manga-v0.2.0",
+        "releaseName": "瑤芯漫畫翻譯 0.2.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.2.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.2.0/yaoxin-manga-0.2.0.apk",
+        "assetName": "yaoxin-manga-0.2.0.apk",
+        "sha256": "aac30f21ef25bedab452f201f589e0314e7bd7c166a78f628216721b1ad594ad",
+        "sizeBytes": 19970093,
+        "publishedAt": "2026-11-18T23:54:55Z",
+        "changelog": "品質升級版。\n\n### 新增\n- 五階段診斷頁：偵測框、OCR 原文、API 譯文、擦字遮罩、擦字後、最終嵌字；可匯出診斷報告（不含 API Key）。\n- 部分完成頁（PARTIAL）：成功區照常輸出，失敗/漏譯區保留原文並標記，不再整頁丟回原圖。\n- OCR 漏字補救：原框/外擴、反色、Otsu、局部重新偵測、整頁切片（平衡/高品質模式）。\n- 智慧擦字：白泡只填文字筆畫、漸層擴散補色、複雜背景才跑 AOT-GAN。\n- 繁體中文排版：短句不縮太小、長句不截斷（標記待處理）、直排句讀、黑/白字自動選擇。\n- 局部框選補救：框選漏譯區 → 自動 OCR/翻譯/擦字/嵌字；OCR 失敗可手動輸入原文。\n- 翻譯快取：重新擦字/排版不重複扣 API。\n\n### 注意\n- 首次使用仍需下載約 248 MB 模型與自備 API Key。\n- 實機品質與真實 API 尚待使用者驗收；有問題請用診斷報告回報。\n- 與 0.1.0 同一簽章，可直接覆蓋更新。",
         "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
       },
       "versions": [
+        {
+          "versionName": "0.2.0",
+          "versionCode": 2,
+          "tag": "manga-v0.2.0",
+          "releaseName": "瑤芯漫畫翻譯 0.2.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.2.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.2.0/yaoxin-manga-0.2.0.apk",
+          "assetName": "yaoxin-manga-0.2.0.apk",
+          "sha256": "aac30f21ef25bedab452f201f589e0314e7bd7c166a78f628216721b1ad594ad",
+          "sizeBytes": 19970093,
+          "publishedAt": "2026-11-18T23:54:55Z",
+          "changelog": "品質升級版。\n\n### 新增\n- 五階段診斷頁：偵測框、OCR 原文、API 譯文、擦字遮罩、擦字後、最終嵌字；可匯出診斷報告（不含 API Key）。\n- 部分完成頁（PARTIAL）：成功區照常輸出，失敗/漏譯區保留原文並標記，不再整頁丟回原圖。\n- OCR 漏字補救：原框/外擴、反色、Otsu、局部重新偵測、整頁切片（平衡/高品質模式）。\n- 智慧擦字：白泡只填文字筆畫、漸層擴散補色、複雜背景才跑 AOT-GAN。\n- 繁體中文排版：短句不縮太小、長句不截斷（標記待處理）、直排句讀、黑/白字自動選擇。\n- 局部框選補救：框選漏譯區 → 自動 OCR/翻譯/擦字/嵌字；OCR 失敗可手動輸入原文。\n- 翻譯快取：重新擦字/排版不重複扣 API。\n\n### 注意\n- 首次使用仍需下載約 248 MB 模型與自備 API Key。\n- 實機品質與真實 API 尚待使用者驗收；有問題請用診斷報告回報。\n- 與 0.1.0 同一簽章，可直接覆蓋更新。",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        },
         {
           "versionName": "0.1.0",
           "versionCode": 1,
@@ -296,5 +310,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T20:52:33Z"
+  "generatedAt": "2026-11-18T23:55:31Z"
 }
