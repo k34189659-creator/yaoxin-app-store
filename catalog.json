@@ -2,6 +2,42 @@
   "schemaVersion": 1,
   "apps": [
     {
+      "id": "tw.dafeiyu.store",
+      "name": "瑤芯應用商店",
+      "packageName": "tw.dafeiyu.store",
+      "tagPrefix": "store",
+      "latest": {
+        "versionName": "1.0.1",
+        "versionCode": 4,
+        "tag": "store-v1.0.1",
+        "releaseName": "瑤芯應用商店 1.0.1",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.1",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.1/yaoxin-store-1.0.1.apk",
+        "assetName": "yaoxin-store-1.0.1.apk",
+        "sha256": "92bf79168b6cf31d21c1f094eedc7a30614d1a36f08799458b6d2bb648d39c5d",
+        "sizeBytes": 11574520,
+        "publishedAt": "2026-11-18T17:00:59Z",
+        "changelog": "瑤芯應用商店 Android 首個正式版本（versionCode 2）。\n\n### 商店功能\n\n- 首頁讀取公開 `catalog.json`，新增 App 不需重新編譯商店。\n- 應用詳情：圖示、名稱、版本、大小、更新內容、SHA-256、簽章指紋、版本歷史。\n- 更新管理：以 `versionCode` 比較本機版本，支援全部更新。\n- 下載管理：前景服務、進度、排隊、失敗重試、取消、清除記錄。\n- 設定：自動檢查、檢查頻率、更新通知、下載目錄、主題、安裝權限、快取清除。\n- 深色模式與繁體中文 Material 3 介面。\n\n### 安全與安裝\n\n- 下載後驗證檔案大小、SHA-256、套件名稱、versionCode、APK 簽章。\n- 更新前比對已安裝簽章；簽章不同時明確阻止，不靜默覆蓋。\n- 阻止版本降級與相同版本重複安裝。\n- 安裝交給 Android `PackageInstaller`，由使用者確認；不使用 Root。\n- Android 11+ 以 `QUERY_ALL_PACKAGES` 正確查詢已安裝版本。\n\n### GitHub 連接\n\n- 讀取 `raw.githubusercontent.com` 的 catalog，失敗時改用 github.com raw 備援。\n- 每次請求加時間戳、禁用 HTTP 快取，避免讀到 CDN 舊資料。\n- 成功後寫入本機快取；離線時保留上次清單。\n- APK 直接從既有 GitHub Release 下載，App 不含發布 Token。\n\n### 商店自我更新\n\n- `catalog.json` 加入 `tw.dafeiyu.store`。\n- 舊版商店可偵測新版本、顯示更新內容、下載、驗證、啟動系統安裝器。\n- 同套件同簽章更新會保留設定與資料。\n\n### 測試\n\n- 47 項 JVM 單元測試：catalog 解析、版本比較、SHA-256、簽章／降級、安裝錯誤對應、格式化。\n- 實機自動測試涵蓋 catalog 讀取、已安裝版本辨識、APK 下載與 SHA／簽章驗證、下載失敗重試、離線快取、自我更新流程。",
+        "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+      },
+      "versions": [
+        {
+          "versionName": "1.0.1",
+          "versionCode": 4,
+          "tag": "store-v1.0.1",
+          "releaseName": "瑤芯應用商店 1.0.1",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.1",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.1/yaoxin-store-1.0.1.apk",
+          "assetName": "yaoxin-store-1.0.1.apk",
+          "sha256": "92bf79168b6cf31d21c1f094eedc7a30614d1a36f08799458b6d2bb648d39c5d",
+          "sizeBytes": 11574520,
+          "publishedAt": "2026-11-18T17:00:59Z",
+          "changelog": "瑤芯應用商店 Android 首個正式版本（versionCode 2）。\n\n### 商店功能\n\n- 首頁讀取公開 `catalog.json`，新增 App 不需重新編譯商店。\n- 應用詳情：圖示、名稱、版本、大小、更新內容、SHA-256、簽章指紋、版本歷史。\n- 更新管理：以 `versionCode` 比較本機版本，支援全部更新。\n- 下載管理：前景服務、進度、排隊、失敗重試、取消、清除記錄。\n- 設定：自動檢查、檢查頻率、更新通知、下載目錄、主題、安裝權限、快取清除。\n- 深色模式與繁體中文 Material 3 介面。\n\n### 安全與安裝\n\n- 下載後驗證檔案大小、SHA-256、套件名稱、versionCode、APK 簽章。\n- 更新前比對已安裝簽章；簽章不同時明確阻止，不靜默覆蓋。\n- 阻止版本降級與相同版本重複安裝。\n- 安裝交給 Android `PackageInstaller`，由使用者確認；不使用 Root。\n- Android 11+ 以 `QUERY_ALL_PACKAGES` 正確查詢已安裝版本。\n\n### GitHub 連接\n\n- 讀取 `raw.githubusercontent.com` 的 catalog，失敗時改用 github.com raw 備援。\n- 每次請求加時間戳、禁用 HTTP 快取，避免讀到 CDN 舊資料。\n- 成功後寫入本機快取；離線時保留上次清單。\n- APK 直接從既有 GitHub Release 下載，App 不含發布 Token。\n\n### 商店自我更新\n\n- `catalog.json` 加入 `tw.dafeiyu.store`。\n- 舊版商店可偵測新版本、顯示更新內容、下載、驗證、啟動系統安裝器。\n- 同套件同簽章更新會保留設定與資料。\n\n### 測試\n\n- 47 項 JVM 單元測試：catalog 解析、版本比較、SHA-256、簽章／降級、安裝錯誤對應、格式化。\n- 實機自動測試涵蓋 catalog 讀取、已安裝版本辨識、APK 下載與 SHA／簽章驗證、下載失敗重試、離線快取、自我更新流程。",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        }
+      ]
+    },
+    {
       "id": "tw.dafeiyu.musicplayer",
       "name": "瑤芯音樂播放器",
       "packageName": "tw.dafeiyu.musicplayer",
@@ -38,5 +74,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T14:57:22Z"
+  "generatedAt": "2026-11-18T17:01:05Z"
 }
