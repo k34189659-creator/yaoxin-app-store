@@ -7,20 +7,34 @@
       "packageName": "tw.dafeiyu.store",
       "tagPrefix": "store",
       "latest": {
-        "versionName": "1.0.2",
-        "versionCode": 7,
-        "tag": "store-v1.0.2",
-        "releaseName": "瑤芯應用商店 1.0.2",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.2",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.2/yaoxin-store-1.0.2.apk",
-        "assetName": "yaoxin-store-1.0.2.apk",
-        "sha256": "73d37bdbdcf60a4a6491884c2cca3b8deb5a22c7c9ec48c9e0da995619d2fbf7",
-        "sizeBytes": 11599522,
-        "publishedAt": "2026-11-18T17:37:16Z",
-        "changelog": "瑤芯商店品牌改版（versionCode 6）。\n\n### 櫻花粉色系品牌\n\n- 整體配色改為瑤芯系列共用的櫻花粉色票：玫瑰 `#E86A92`、奶油粉 `#FFF7FA`、\n  淡粉 `#FFE4EE`、藍 `#7FA8D9`、薰衣草紫 `#9B7EDE`。\n- 深色模式同步改為莓果粉底、玫瑰主色，與瑤芯音樂播放器一致。\n- 新增瑤芯商店 Logo：玫瑰底、白色購物袋與下載箭頭、星光。\n- 全新 App 圖示（自適應圖示、圓角圖示、通知小圖示）。\n- 新增品牌啟動畫面（奶油粉底 + 商店 Logo）。\n- 首頁標題加入 Logo 與「瑤芯」品牌字樣；設定頁關於區塊加入 Logo 與系列標語。\n- 未安裝 App 的預設頭像改為玫瑰／藍紫／金粉三組瑤芯漸層。\n\n### 功能回歸\n\n- 目錄讀取、快取、離線回退、SHA-256、簽章、降級防護、系統安裝器、\n  下載佇列與商店自我更新流程均未改動。\n- 47 項 JVM 測試、5 項發布工具測試重新執行。\n- 實機自我更新由 1.0.2-test（5）→ 1.0.2（6）驗證。",
+        "versionName": "1.0.3",
+        "versionCode": 8,
+        "tag": "store-v1.0.3",
+        "releaseName": "瑤芯應用商店 1.0.3",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.3",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.3/yaoxin-store-1.0.3.apk",
+        "assetName": "yaoxin-store-1.0.3.apk",
+        "sha256": "e50f636bbd4d795e53a8f2fbf44c60c9ffd7d1b8067d23b514b444a9c584ac40",
+        "sizeBytes": 11599518,
+        "publishedAt": "2026-11-18T17:43:21Z",
+        "changelog": "GitHub 目錄新鮮度修正（versionCode 8）。\n\n### 修正\n\n- 發現 `raw.githubusercontent.com` 的 CDN 會長時間回傳舊 `catalog.json`，\n  即使加上時間戳 query 也未必能繞過，導致商店可能看不到剛發布的新版本。\n- 改以 **GitHub Contents API** 為主要目錄來源：\n  `https://api.github.com/repos/k34189659-creator/yaoxin-app-store/contents/catalog.json?ref=main`\n  並保留 jsDelivr、raw、github raw 作為備援。\n- 新增 `generatedAt` 新舊比較：備援來源若回傳比本機快取更舊的目錄，\n  不覆蓋快取，避免目錄倒退。\n- 啟動／重新整理時的 catalog 來源會寫入 `YaoxinCatalog` 日誌，方便診斷。\n\n### 品牌\n\n- 沿用 v1.0.2 的櫻花粉色系、瑤芯商店 Logo、啟動畫面、App 圖示與預設頭像。\n- 底部導覽選取指示改為玫瑰粉色，與整體配色一致。",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
       "versions": [
+        {
+          "versionName": "1.0.3",
+          "versionCode": 8,
+          "tag": "store-v1.0.3",
+          "releaseName": "瑤芯應用商店 1.0.3",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.3",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.3/yaoxin-store-1.0.3.apk",
+          "assetName": "yaoxin-store-1.0.3.apk",
+          "sha256": "e50f636bbd4d795e53a8f2fbf44c60c9ffd7d1b8067d23b514b444a9c584ac40",
+          "sizeBytes": 11599518,
+          "publishedAt": "2026-11-18T17:43:21Z",
+          "changelog": "GitHub 目錄新鮮度修正（versionCode 8）。\n\n### 修正\n\n- 發現 `raw.githubusercontent.com` 的 CDN 會長時間回傳舊 `catalog.json`，\n  即使加上時間戳 query 也未必能繞過，導致商店可能看不到剛發布的新版本。\n- 改以 **GitHub Contents API** 為主要目錄來源：\n  `https://api.github.com/repos/k34189659-creator/yaoxin-app-store/contents/catalog.json?ref=main`\n  並保留 jsDelivr、raw、github raw 作為備援。\n- 新增 `generatedAt` 新舊比較：備援來源若回傳比本機快取更舊的目錄，\n  不覆蓋快取，避免目錄倒退。\n- 啟動／重新整理時的 catalog 來源會寫入 `YaoxinCatalog` 日誌，方便診斷。\n\n### 品牌\n\n- 沿用 v1.0.2 的櫻花粉色系、瑤芯商店 Logo、啟動畫面、App 圖示與預設頭像。\n- 底部導覽選取指示改為玫瑰粉色，與整體配色一致。",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        },
         {
           "versionName": "1.0.2",
           "versionCode": 7,
@@ -88,5 +102,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T17:37:22Z"
+  "generatedAt": "2026-11-18T17:43:27Z"
 }
