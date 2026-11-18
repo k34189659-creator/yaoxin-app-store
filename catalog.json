@@ -66,6 +66,42 @@
       ]
     },
     {
+      "id": "tw.dafeiyu.mangashelf",
+      "name": "瑤芯閱讀器",
+      "packageName": "tw.dafeiyu.mangashelf",
+      "tagPrefix": "reader",
+      "latest": {
+        "versionName": "1.1.2",
+        "versionCode": 14,
+        "tag": "reader-v1.1.2",
+        "releaseName": "瑤芯閱讀器 1.1.2",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.1.2",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.1.2/yaoxin-reader-1.1.2.apk",
+        "assetName": "yaoxin-reader-1.1.2.apk",
+        "sha256": "670473f3418e7c5d1ac25cd48e7f15aca67e79e462f5121501e53259186c783c",
+        "sizeBytes": 103233,
+        "publishedAt": "2026-11-18T18:07:58Z",
+        "changelog": "瑤芯閱讀器 1.1.2 首次上架瑤芯應用商店。",
+        "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+      },
+      "versions": [
+        {
+          "versionName": "1.1.2",
+          "versionCode": 14,
+          "tag": "reader-v1.1.2",
+          "releaseName": "瑤芯閱讀器 1.1.2",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.1.2",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.1.2/yaoxin-reader-1.1.2.apk",
+          "assetName": "yaoxin-reader-1.1.2.apk",
+          "sha256": "670473f3418e7c5d1ac25cd48e7f15aca67e79e462f5121501e53259186c783c",
+          "sizeBytes": 103233,
+          "publishedAt": "2026-11-18T18:07:58Z",
+          "changelog": "瑤芯閱讀器 1.1.2 首次上架瑤芯應用商店。",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        }
+      ]
+    },
+    {
       "id": "tw.dafeiyu.musicplayer",
       "name": "瑤芯音樂播放器",
       "packageName": "tw.dafeiyu.musicplayer",
@@ -102,5 +138,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T17:43:27Z"
+  "generatedAt": "2026-11-18T18:08:01Z"
 }
