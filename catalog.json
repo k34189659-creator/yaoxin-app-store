@@ -66,6 +66,42 @@
       ]
     },
     {
+      "id": "tw.dafeiyu.filemanager",
+      "name": "瑤芯檔案管理器",
+      "packageName": "tw.dafeiyu.filemanager",
+      "tagPrefix": "filemanager",
+      "latest": {
+        "versionName": "0.23.1",
+        "versionCode": 55,
+        "tag": "filemanager-v0.23.1",
+        "releaseName": "瑤芯檔案管理器 0.23.1",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.23.1",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.23.1/yaoxin-filemanager-0.23.1.apk",
+        "assetName": "yaoxin-filemanager-0.23.1.apk",
+        "sha256": "b31e5d677b29bacbacbcb83596b7a436050e0a1ba2354c4525cb010abacd87e1",
+        "sizeBytes": 10770592,
+        "publishedAt": "2026-11-18T18:08:06Z",
+        "changelog": "瑤芯檔案管理器 0.23.1 首次上架瑤芯應用商店。",
+        "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+      },
+      "versions": [
+        {
+          "versionName": "0.23.1",
+          "versionCode": 55,
+          "tag": "filemanager-v0.23.1",
+          "releaseName": "瑤芯檔案管理器 0.23.1",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.23.1",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.23.1/yaoxin-filemanager-0.23.1.apk",
+          "assetName": "yaoxin-filemanager-0.23.1.apk",
+          "sha256": "b31e5d677b29bacbacbcb83596b7a436050e0a1ba2354c4525cb010abacd87e1",
+          "sizeBytes": 10770592,
+          "publishedAt": "2026-11-18T18:08:06Z",
+          "changelog": "瑤芯檔案管理器 0.23.1 首次上架瑤芯應用商店。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        }
+      ]
+    },
+    {
       "id": "tw.dafeiyu.mangashelf",
       "name": "瑤芯閱讀器",
       "packageName": "tw.dafeiyu.mangashelf",
@@ -138,5 +174,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T18:08:01Z"
+  "generatedAt": "2026-11-18T18:08:12Z"
 }
