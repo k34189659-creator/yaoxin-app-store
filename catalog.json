@@ -71,20 +71,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.24.0",
-        "versionCode": 56,
-        "tag": "filemanager-v0.24.0",
-        "releaseName": "瑤芯檔案管理器 0.24.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.24.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.24.0/yaoxin-filemanager-0.24.0.apk",
-        "assetName": "yaoxin-filemanager-0.24.0.apk",
-        "sha256": "f3b5566a0608ed34ca7d175fff2479d0637f9401ff21cbb5fbe53554977fa8ff",
-        "sizeBytes": 10786976,
-        "publishedAt": "2026-11-18T18:36:18Z",
-        "changelog": "### 四項已知問題\n\n- **壓縮檔內圖片預覽**：ZIP/CBZ 內的圖片現在有縮圖，點按直接開啟既有圖片檢視器，\n  可上一張／下一張；只把目前 ZIP 資料夾的圖片解到 cache，不整包解壓。\n  - 多層資料夾可分層瀏覽；縮圖使用取樣與 LRU 快取。\n  - 限制單檔 64 MiB、總量 256 MiB、120 張、50,000 個 entry，阻擋 zip slip 與\n    zip bomb；加密／損壞／不支援項目逐項提示。\n  - RAR/7Z 目前沒有內建解碼器（專案原本只支援 ZIP），點按時明確提示並交外部 App；\n    不再假裝可預覽。\n- **長檔名重新命名**：改為單行水平捲動輸入框，預設選取主檔名、不選副檔名；\n  顯示 UTF-8 byte 數；失敗保留原輸入與錯誤訊息；支援中文、英文、Emoji 與組合字元。\n- **重新命名後置頂消失**：新增共用的 `PathChanges` 路徑重映射；置頂、收藏、最近使用、\n  `.nomedia` 標記、分頁路徑／選取、剪貼簿、檢視器都在同一個入口同步。\n- **重新命名資料夾後剪貼簿失效**：剪下／複製的來源路徑會隨上層資料夾或檔案本身\n  重新命名而更新；移動部分失敗時只保留失敗項目，不會清空整個剪貼簿。\n  - 貼上前檢查來源是否存在；失敗顯示實際原因。\n  - 移動成功回傳舊→新映射，供置頂／分頁／最近使用同步。\n\n### 品質巡檢與安全修正\n\n- 資料夾複製／移動到自己的子資料夾會直接拒絕，不會遞迴複製或誤刪來源。\n- 移動覆蓋同名目標時，若複製或刪除失敗會還原原目標；備份路徑保留於錯誤訊息。\n- 重新命名改為真正的檔名驗證：拒絕 `/`、`.`、`..`、控制字元與超過 255 UTF-8 bytes，\n  不再靜默把 `/` 換成 `_`。\n- 解壓增加 100,000 entry／8 GiB 上限，超過即停止並清理半截檔案。\n- 縮圖快取 key 加入檔案 mtime／size，檔案修改後不會拿到舊圖；刪除／改名會清舊 key。\n- ZIP 瀏覽器遇到加密／損壞檔會顯示錯誤，不再默默顯示空資料夾。\n\n### 回歸\n\n- 既有置頂群組、排序、搜尋、分類、多選、PickerActivity、DocumentsProvider、\n  APK 圖示、縮圖、回收站與跨分頁操作保留。\n- 新增 `PathChangesTest`、`FileNameTest`、`ZipPreviewTest`、`FileOpsPathSafetyTest`、\n  `TabModelPathTest`，連同原有測試共 **99 項（1 skipped）**。\n- 實機 UI 操作仍需使用者依 `docs/TEST_PLAN_0.24.0.md` 驗證；未驗證項目會在交付報告標明。",
+        "versionName": "0.25.0",
+        "versionCode": 57,
+        "tag": "filemanager-v0.25.0",
+        "releaseName": "瑤芯檔案管理器 0.25.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.25.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.25.0/yaoxin-filemanager-0.25.0.apk",
+        "assetName": "yaoxin-filemanager-0.25.0.apk",
+        "sha256": "2739377995f23671bebd43a35608f0f599a8f7bb1742b1ed64d270cd31b44b7a",
+        "sizeBytes": 10836128,
+        "publishedAt": "2026-11-19T02:13:39Z",
+        "changelog": "### 三項指定修復\n\n- **ZIP／CBZ 內圖片無法翻頁**\n  - 原因：圖片檢視器其實已有 `HorizontalPager`，但 `ZoomableImage` 的 `detectTransformGestures` 會消費水平拖曳，pager 收不到手勢。\n  - 修改：1x 時單指水平拖曳不消費，交給 pager；兩指捏合任何倍率都可用；放大後單指才由圖片平移消費。新增上一張／下一張箭頭、`beyondViewportPageCount = 1` 預載相鄰圖片。\n  - 只解目前 ZIP 資料夾的圖片，不整包解壓；保留自然排序、非圖片過濾與多層資料夾行為。選取的圖片若被跳過（過大／加密／解壓失敗），會顯示提示，不再誤開第一張。\n- **批次重新命名**\n  - 新增 `BatchRenamer`（預覽、名稱與衝突檢查）與 `BatchRenameExecutor`（兩階段改名，避免 A↔B 互蓋）。\n  - 兩種模式：新名字＋數字（可設起始值、1–4 位補零）、前綴＋原檔名；保留副檔名（含 `.tar.gz` 複合副檔名）。\n  - 多選後底部「重新命名」直接進批次預覽；單選仍走原本 `RenameDialog`。\n  - 成功後走 `applyPathChanges`，同步置頂、收藏、最近、分頁、選取、剪貼簿、檢視器；不修改檔案內容。失敗會嘗試全部回復原狀並回報。\n- **壓縮檔預設名稱**\n  - 新增 `ArchiveNames`：單一資料夾／檔案使用其名稱，多選使用目前資料夾名稱；同名自動建議 `名稱 (1).zip`。\n  - 使用者仍可修改；同名衝突在對話框提示，`FileOps.zip` 也加最後防線，不覆蓋既有壓縮檔。\n  - 壓縮內容相對路徑不變，不多包／少包一層。\n\n### 首頁與回收站 UI\n\n- 回收站從 `AlertDialog` 改為獨立 `TrashScreen` 頁面：檔案圖示／圖片縮圖、名稱、原始路徑、大小、刪除時間、復原、永久刪除、清空、空狀態、LazyColumn 捲動、返回鍵。\n- 首頁在「重複性掃描」下方新增回收站卡片，顯示項目數與大小；側邊欄「工具（回收站）」改名「回收站」。\n- 移除首頁重複的「快速存取」區塊，保留六色分類、收藏、最近使用；資訊層次為儲存空間 → 重複掃描 → 回收站 → 分類 → 收藏／最近。\n- 刪除到回收站後首頁卡片數量即時刷新。\n\n### 回歸與測試\n\n- 新增 `BatchRenamerTest`、`ArchiveNamesTest`，連同既有測試共 **111 項、0 失敗、0 錯誤、0 skipped**。\n- 保留 0.24.0 的 ZIP 安全、PathChanges、置頂、剪貼簿同步、自然排序、picker、DocumentsProvider 等測試。\n- Release APK 建置成功；實機 UI 尚未由助手點擊驗證（DSHA 無安裝權限），驗收步驟見 `docs/TEST_PLAN_0.25.0.md`。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.25.0",
+          "versionCode": 57,
+          "tag": "filemanager-v0.25.0",
+          "releaseName": "瑤芯檔案管理器 0.25.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.25.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.25.0/yaoxin-filemanager-0.25.0.apk",
+          "assetName": "yaoxin-filemanager-0.25.0.apk",
+          "sha256": "2739377995f23671bebd43a35608f0f599a8f7bb1742b1ed64d270cd31b44b7a",
+          "sizeBytes": 10836128,
+          "publishedAt": "2026-11-19T02:13:39Z",
+          "changelog": "### 三項指定修復\n\n- **ZIP／CBZ 內圖片無法翻頁**\n  - 原因：圖片檢視器其實已有 `HorizontalPager`，但 `ZoomableImage` 的 `detectTransformGestures` 會消費水平拖曳，pager 收不到手勢。\n  - 修改：1x 時單指水平拖曳不消費，交給 pager；兩指捏合任何倍率都可用；放大後單指才由圖片平移消費。新增上一張／下一張箭頭、`beyondViewportPageCount = 1` 預載相鄰圖片。\n  - 只解目前 ZIP 資料夾的圖片，不整包解壓；保留自然排序、非圖片過濾與多層資料夾行為。選取的圖片若被跳過（過大／加密／解壓失敗），會顯示提示，不再誤開第一張。\n- **批次重新命名**\n  - 新增 `BatchRenamer`（預覽、名稱與衝突檢查）與 `BatchRenameExecutor`（兩階段改名，避免 A↔B 互蓋）。\n  - 兩種模式：新名字＋數字（可設起始值、1–4 位補零）、前綴＋原檔名；保留副檔名（含 `.tar.gz` 複合副檔名）。\n  - 多選後底部「重新命名」直接進批次預覽；單選仍走原本 `RenameDialog`。\n  - 成功後走 `applyPathChanges`，同步置頂、收藏、最近、分頁、選取、剪貼簿、檢視器；不修改檔案內容。失敗會嘗試全部回復原狀並回報。\n- **壓縮檔預設名稱**\n  - 新增 `ArchiveNames`：單一資料夾／檔案使用其名稱，多選使用目前資料夾名稱；同名自動建議 `名稱 (1).zip`。\n  - 使用者仍可修改；同名衝突在對話框提示，`FileOps.zip` 也加最後防線，不覆蓋既有壓縮檔。\n  - 壓縮內容相對路徑不變，不多包／少包一層。\n\n### 首頁與回收站 UI\n\n- 回收站從 `AlertDialog` 改為獨立 `TrashScreen` 頁面：檔案圖示／圖片縮圖、名稱、原始路徑、大小、刪除時間、復原、永久刪除、清空、空狀態、LazyColumn 捲動、返回鍵。\n- 首頁在「重複性掃描」下方新增回收站卡片，顯示項目數與大小；側邊欄「工具（回收站）」改名「回收站」。\n- 移除首頁重複的「快速存取」區塊，保留六色分類、收藏、最近使用；資訊層次為儲存空間 → 重複掃描 → 回收站 → 分類 → 收藏／最近。\n- 刪除到回收站後首頁卡片數量即時刷新。\n\n### 回歸與測試\n\n- 新增 `BatchRenamerTest`、`ArchiveNamesTest`，連同既有測試共 **111 項、0 失敗、0 錯誤、0 skipped**。\n- 保留 0.24.0 的 ZIP 安全、PathChanges、置頂、剪貼簿同步、自然排序、picker、DocumentsProvider 等測試。\n- Release APK 建置成功；實機 UI 尚未由助手點擊驗證（DSHA 無安裝權限），驗收步驟見 `docs/TEST_PLAN_0.25.0.md`。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.24.0",
           "versionCode": 56,
@@ -310,5 +324,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-18T23:55:31Z"
+  "generatedAt": "2026-11-19T02:13:58Z"
 }
