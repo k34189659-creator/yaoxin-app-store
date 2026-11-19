@@ -7,20 +7,34 @@
       "packageName": "tw.dafeiyu.store",
       "tagPrefix": "store",
       "latest": {
-        "versionName": "1.0.11",
-        "versionCode": 16,
-        "tag": "store-v1.0.11",
-        "releaseName": "瑤芯應用商店 1.0.11",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.11",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.11/yaoxin-store-1.0.11.apk",
-        "assetName": "yaoxin-store-1.0.11.apk",
-        "sha256": "a6010e5a6a713e289cc01d2c1b958ede151d78928399e1e80660ea1db6e6b83a",
-        "sizeBytes": 12290890,
-        "publishedAt": "2026-11-19T13:45:36Z",
-        "changelog": "圖示再放大：卡片 72% 並往左上偏移 1.5%，去除殘留粉色底邊、角標仍在",
+        "versionName": "1.1.0",
+        "versionCode": 17,
+        "tag": "store-v1.1.0",
+        "releaseName": "瑤芯應用商店 1.1.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.1.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.1.0/yaoxin-store-1.1.0.apk",
+        "assetName": "yaoxin-store-1.1.0.apk",
+        "sha256": "9861d25456592a50b6fb50910e7769e0d1b74c626201fe8fdd769e9843d31484",
+        "sizeBytes": 13263062,
+        "publishedAt": "2026-11-19T18:50:24Z",
+        "changelog": "更新管理改為全部更新（商店自己最後）、下載驗證通過後自動提交系統安裝頁、取消安裝保留 APK 可重試、新增 QUEUED_INSTALL 狀態、粉紫品牌化",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
       "versions": [
+        {
+          "versionName": "1.1.0",
+          "versionCode": 17,
+          "tag": "store-v1.1.0",
+          "releaseName": "瑤芯應用商店 1.1.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.1.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.1.0/yaoxin-store-1.1.0.apk",
+          "assetName": "yaoxin-store-1.1.0.apk",
+          "sha256": "9861d25456592a50b6fb50910e7769e0d1b74c626201fe8fdd769e9843d31484",
+          "sizeBytes": 13263062,
+          "publishedAt": "2026-11-19T18:50:24Z",
+          "changelog": "更新管理改為全部更新（商店自己最後）、下載驗證通過後自動提交系統安裝頁、取消安裝保留 APK 可重試、新增 QUEUED_INSTALL 狀態、粉紫品牌化",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        },
         {
           "versionName": "1.0.11",
           "versionCode": 16,
@@ -632,5 +646,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T18:50:19Z"
+  "generatedAt": "2026-11-19T18:50:30Z"
 }
