@@ -7,20 +7,34 @@
       "packageName": "tw.dafeiyu.store",
       "tagPrefix": "store",
       "latest": {
-        "versionName": "1.0.3",
-        "versionCode": 8,
-        "tag": "store-v1.0.3",
-        "releaseName": "瑤芯應用商店 1.0.3",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.3",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.3/yaoxin-store-1.0.3.apk",
-        "assetName": "yaoxin-store-1.0.3.apk",
-        "sha256": "e50f636bbd4d795e53a8f2fbf44c60c9ffd7d1b8067d23b514b444a9c584ac40",
-        "sizeBytes": 11599518,
-        "publishedAt": "2026-11-18T17:43:21Z",
-        "changelog": "GitHub 目錄新鮮度修正（versionCode 8）。\n\n### 修正\n\n- 發現 `raw.githubusercontent.com` 的 CDN 會長時間回傳舊 `catalog.json`，\n  即使加上時間戳 query 也未必能繞過，導致商店可能看不到剛發布的新版本。\n- 改以 **GitHub Contents API** 為主要目錄來源：\n  `https://api.github.com/repos/k34189659-creator/yaoxin-app-store/contents/catalog.json?ref=main`\n  並保留 jsDelivr、raw、github raw 作為備援。\n- 新增 `generatedAt` 新舊比較：備援來源若回傳比本機快取更舊的目錄，\n  不覆蓋快取，避免目錄倒退。\n- 啟動／重新整理時的 catalog 來源會寫入 `YaoxinCatalog` 日誌，方便診斷。\n\n### 品牌\n\n- 沿用 v1.0.2 的櫻花粉色系、瑤芯商店 Logo、啟動畫面、App 圖示與預設頭像。\n- 底部導覽選取指示改為玫瑰粉色，與整體配色一致。",
+        "versionName": "1.0.4",
+        "versionCode": 9,
+        "tag": "store-v1.0.4",
+        "releaseName": "瑤芯應用商店 1.0.4",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.4",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.4/yaoxin-store-1.0.4.apk",
+        "assetName": "yaoxin-store-1.0.4.apk",
+        "sha256": "41ca58ee9dc356806e83818909adeebcb0a0914a239a4dc313ffe53aa2c0b485",
+        "sizeBytes": 11632314,
+        "publishedAt": "2026-11-19T10:52:42Z",
+        "changelog": "1.0.4：下載完成後改為「安裝」按鈕、保留 APK 可重裝；新增解除安裝與開啟",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
       "versions": [
+        {
+          "versionName": "1.0.4",
+          "versionCode": 9,
+          "tag": "store-v1.0.4",
+          "releaseName": "瑤芯應用商店 1.0.4",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.4",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.4/yaoxin-store-1.0.4.apk",
+          "assetName": "yaoxin-store-1.0.4.apk",
+          "sha256": "41ca58ee9dc356806e83818909adeebcb0a0914a239a4dc313ffe53aa2c0b485",
+          "sizeBytes": 11632314,
+          "publishedAt": "2026-11-19T10:52:42Z",
+          "changelog": "1.0.4：下載完成後改為「安裝」按鈕、保留 APK 可重裝；新增解除安裝與開啟",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        },
         {
           "versionName": "1.0.3",
           "versionCode": 8,
@@ -352,5 +366,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T10:02:38Z"
+  "generatedAt": "2026-11-19T10:53:04Z"
 }
