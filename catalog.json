@@ -489,20 +489,34 @@
       "packageName": "tw.dafeiyu.musicplayer",
       "tagPrefix": "musicplayer",
       "latest": {
-        "versionName": "0.3.1",
-        "versionCode": 4,
-        "tag": "musicplayer-v0.3.1",
-        "releaseName": "瑤芯音樂播放器 0.3.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.3.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.3.1/yaoxin-musicplayer-0.3.1.apk",
-        "assetName": "yaoxin-musicplayer-0.3.1.apk",
-        "sha256": "d7db1e1e2668f422d61cf77c7db0db883d5f79de1283c77f3e0cf82f194c60b0",
-        "sizeBytes": 15930430,
-        "publishedAt": "2026-11-19T12:57:09Z",
-        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+        "versionName": "0.3.2",
+        "versionCode": 5,
+        "tag": "musicplayer-v0.3.2",
+        "releaseName": "瑤芯音樂播放器 0.3.2",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.3.2",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.3.2/yaoxin-musicplayer-0.3.2.apk",
+        "assetName": "yaoxin-musicplayer-0.3.2.apk",
+        "sha256": "c4f3421334d3b8c41b7294bb5ecc0e92b09687a5296f2314e5b2faa36f3fb7d2",
+        "sizeBytes": 16007678,
+        "publishedAt": "2026-11-19T14:05:08Z",
+        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
         "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
       },
       "versions": [
+        {
+          "versionName": "0.3.2",
+          "versionCode": 5,
+          "tag": "musicplayer-v0.3.2",
+          "releaseName": "瑤芯音樂播放器 0.3.2",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.3.2",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.3.2/yaoxin-musicplayer-0.3.2.apk",
+          "assetName": "yaoxin-musicplayer-0.3.2.apk",
+          "sha256": "c4f3421334d3b8c41b7294bb5ecc0e92b09687a5296f2314e5b2faa36f3fb7d2",
+          "sizeBytes": 16007678,
+          "publishedAt": "2026-11-19T14:05:08Z",
+          "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+          "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
+        },
         {
           "versionName": "0.3.1",
           "versionCode": 4,
@@ -534,5 +548,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T14:04:59Z"
+  "generatedAt": "2026-11-19T14:05:14Z"
 }
