@@ -135,20 +135,34 @@
       "packageName": "tw.dafeiyu.mangatranslator",
       "tagPrefix": "manga",
       "latest": {
-        "versionName": "0.3.0",
-        "versionCode": 3,
-        "tag": "manga-v0.3.0",
-        "releaseName": "瑤芯漫畫翻譯 0.3.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.0/yaoxin-manga-0.3.0.apk",
-        "assetName": "yaoxin-manga-0.3.0.apk",
-        "sha256": "05d5f030522996ab6ba9ae2388ae9a5b2f930d1df687a74f130f63029dc624a9",
-        "sizeBytes": 35305513,
-        "publishedAt": "2026-11-19T09:53:19Z",
-        "changelog": "0.3.0：PP-OCRv6 多引擎 OCR、漫畫文字類型、對話框輪廓排版、擦字容錯、無損匯出",
+        "versionName": "0.3.1",
+        "versionCode": 4,
+        "tag": "manga-v0.3.1",
+        "releaseName": "瑤芯漫畫翻譯 0.3.1",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.1",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.1/yaoxin-manga-0.3.1.apk",
+        "assetName": "yaoxin-manga-0.3.1.apk",
+        "sha256": "01ebbafd48027f63ed451a118837fb35e4c653434d60ddc10436700daeece3b1",
+        "sizeBytes": 35146015,
+        "publishedAt": "2026-11-19T10:01:35Z",
+        "changelog": "0.3.1：修正整頁被分類為不可擦時完全沒變更（保底保守擦字）",
         "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
       },
       "versions": [
+        {
+          "versionName": "0.3.1",
+          "versionCode": 4,
+          "tag": "manga-v0.3.1",
+          "releaseName": "瑤芯漫畫翻譯 0.3.1",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.1",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.1/yaoxin-manga-0.3.1.apk",
+          "assetName": "yaoxin-manga-0.3.1.apk",
+          "sha256": "01ebbafd48027f63ed451a118837fb35e4c653434d60ddc10436700daeece3b1",
+          "sizeBytes": 35146015,
+          "publishedAt": "2026-11-19T10:01:35Z",
+          "changelog": "0.3.1：修正整頁被分類為不可擦時完全沒變更（保底保守擦字）",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        },
         {
           "versionName": "0.3.0",
           "versionCode": 3,
@@ -338,5 +352,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T09:54:20Z"
+  "generatedAt": "2026-11-19T10:02:38Z"
 }
