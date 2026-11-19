@@ -7,20 +7,34 @@
       "packageName": "tw.dafeiyu.store",
       "tagPrefix": "store",
       "latest": {
-        "versionName": "1.0.5",
-        "versionCode": 10,
-        "tag": "store-v1.0.5",
-        "releaseName": "瑤芯應用商店 1.0.5",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.5",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.5/yaoxin-store-1.0.5.apk",
-        "assetName": "yaoxin-store-1.0.5.apk",
-        "sha256": "c0d0ad149908bed0bd494b8ba7e5576082bf25adea3441f025b773f60bdb856a",
-        "sizeBytes": 12217910,
-        "publishedAt": "2026-11-19T12:57:42Z",
-        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+        "versionName": "1.0.6",
+        "versionCode": 11,
+        "tag": "store-v1.0.6",
+        "releaseName": "瑤芯應用商店 1.0.6",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.6",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.6/yaoxin-store-1.0.6.apk",
+        "assetName": "yaoxin-store-1.0.6.apk",
+        "sha256": "d5f822ac0c4a80d90fe621466e644160363594752a58ef71451710460c16dceb",
+        "sizeBytes": 12305482,
+        "publishedAt": "2026-11-19T13:22:09Z",
+        "changelog": "圖示尺寸修正：前景卡片由 54.5% 調整為 64%，與其他六款視覺大小一致（右下角標保留）",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
       "versions": [
+        {
+          "versionName": "1.0.6",
+          "versionCode": 11,
+          "tag": "store-v1.0.6",
+          "releaseName": "瑤芯應用商店 1.0.6",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.6",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.6/yaoxin-store-1.0.6.apk",
+          "assetName": "yaoxin-store-1.0.6.apk",
+          "sha256": "d5f822ac0c4a80d90fe621466e644160363594752a58ef71451710460c16dceb",
+          "sizeBytes": 12305482,
+          "publishedAt": "2026-11-19T13:22:09Z",
+          "changelog": "圖示尺寸修正：前景卡片由 54.5% 調整為 64%，與其他六款視覺大小一致（右下角標保留）",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        },
         {
           "versionName": "1.0.5",
           "versionCode": 10,
@@ -464,5 +478,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T12:58:02Z"
+  "generatedAt": "2026-11-19T13:22:19Z"
 }
