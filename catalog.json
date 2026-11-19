@@ -7,20 +7,34 @@
       "packageName": "tw.dafeiyu.store",
       "tagPrefix": "store",
       "latest": {
-        "versionName": "1.0.9",
-        "versionCode": 14,
-        "tag": "store-v1.0.9",
-        "releaseName": "瑤芯應用商店 1.0.9",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.9",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.9/yaoxin-store-1.0.9.apk",
-        "assetName": "yaoxin-store-1.0.9.apk",
-        "sha256": "d3a02c3e23538ba1b3f58189d2b2414312de32db300569cf50d5154419b758d8",
-        "sizeBytes": 12273638,
-        "publishedAt": "2026-11-19T13:38:01Z",
-        "changelog": "圖示適配修正：前景改為滿版（0.667）鋪滿可視區、移除投影與第二層圓角，背景取插圖角落底色",
+        "versionName": "1.0.11",
+        "versionCode": 16,
+        "tag": "store-v1.0.11",
+        "releaseName": "瑤芯應用商店 1.0.11",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.11",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.11/yaoxin-store-1.0.11.apk",
+        "assetName": "yaoxin-store-1.0.11.apk",
+        "sha256": "a6010e5a6a713e289cc01d2c1b958ede151d78928399e1e80660ea1db6e6b83a",
+        "sizeBytes": 12290890,
+        "publishedAt": "2026-11-19T13:45:36Z",
+        "changelog": "圖示再放大：卡片 72% 並往左上偏移 1.5%，去除殘留粉色底邊、角標仍在",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
       "versions": [
+        {
+          "versionName": "1.0.11",
+          "versionCode": 16,
+          "tag": "store-v1.0.11",
+          "releaseName": "瑤芯應用商店 1.0.11",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.11",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.11/yaoxin-store-1.0.11.apk",
+          "assetName": "yaoxin-store-1.0.11.apk",
+          "sha256": "a6010e5a6a713e289cc01d2c1b958ede151d78928399e1e80660ea1db6e6b83a",
+          "sizeBytes": 12290890,
+          "publishedAt": "2026-11-19T13:45:36Z",
+          "changelog": "圖示再放大：卡片 72% 並往左上偏移 1.5%，去除殘留粉色底邊、角標仍在",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        },
         {
           "versionName": "1.0.9",
           "versionCode": 14,
@@ -506,5 +520,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T13:38:06Z"
+  "generatedAt": "2026-11-19T13:45:42Z"
 }
