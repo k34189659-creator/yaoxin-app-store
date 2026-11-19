@@ -155,20 +155,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.25.1",
-        "versionCode": 58,
-        "tag": "filemanager-v0.25.1",
-        "releaseName": "瑤芯檔案管理器 0.25.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.25.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.25.1/yaoxin-filemanager-0.25.1.apk",
-        "assetName": "yaoxin-filemanager-0.25.1.apk",
-        "sha256": "ef41a3bb061a905db9edfd88e8e966bc766868be56cfd3c72e286a93c89aeba6",
-        "sizeBytes": 11307316,
-        "publishedAt": "2026-11-19T12:56:58Z",
-        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+        "versionName": "0.25.2",
+        "versionCode": 59,
+        "tag": "filemanager-v0.25.2",
+        "releaseName": "瑤芯檔案管理器 0.25.2",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.25.2",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.25.2/yaoxin-filemanager-0.25.2.apk",
+        "assetName": "yaoxin-filemanager-0.25.2.apk",
+        "sha256": "92e5fac71dff40907e0dd67d6fb82486419c8f57bc00a47013336d589a02b458",
+        "sizeBytes": 11378656,
+        "publishedAt": "2026-11-19T14:04:54Z",
+        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.25.2",
+          "versionCode": 59,
+          "tag": "filemanager-v0.25.2",
+          "releaseName": "瑤芯檔案管理器 0.25.2",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.25.2",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.25.2/yaoxin-filemanager-0.25.2.apk",
+          "assetName": "yaoxin-filemanager-0.25.2.apk",
+          "sha256": "92e5fac71dff40907e0dd67d6fb82486419c8f57bc00a47013336d589a02b458",
+          "sizeBytes": 11378656,
+          "publishedAt": "2026-11-19T14:04:54Z",
+          "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.25.1",
           "versionCode": 58,
@@ -520,5 +534,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T13:45:42Z"
+  "generatedAt": "2026-11-19T14:04:59Z"
 }
