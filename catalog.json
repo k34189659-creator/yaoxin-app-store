@@ -247,20 +247,34 @@
       "packageName": "tw.dafeiyu.mangatranslator",
       "tagPrefix": "manga",
       "latest": {
-        "versionName": "0.3.2",
-        "versionCode": 5,
-        "tag": "manga-v0.3.2",
-        "releaseName": "瑤芯漫畫翻譯 0.3.2",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.2",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.2/yaoxin-manga-0.3.2.apk",
-        "assetName": "yaoxin-manga-0.3.2.apk",
-        "sha256": "37492ac5012a11c411378a9a2c311fb1ff927c5cf640fe794d3b5d1e1daed646",
-        "sizeBytes": 35805003,
-        "publishedAt": "2026-11-19T12:56:40Z",
-        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+        "versionName": "0.3.3",
+        "versionCode": 6,
+        "tag": "manga-v0.3.3",
+        "releaseName": "瑤芯漫畫翻譯 0.3.3",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.3",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.3/yaoxin-manga-0.3.3.apk",
+        "assetName": "yaoxin-manga-0.3.3.apk",
+        "sha256": "a08fcac7c08a7e47b64e2de7a7efa68b56bc7ba2d0a26b50777ed20a190bd388",
+        "sizeBytes": 35901963,
+        "publishedAt": "2026-11-19T14:06:23Z",
+        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
         "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
       },
       "versions": [
+        {
+          "versionName": "0.3.3",
+          "versionCode": 6,
+          "tag": "manga-v0.3.3",
+          "releaseName": "瑤芯漫畫翻譯 0.3.3",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.3",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.3/yaoxin-manga-0.3.3.apk",
+          "assetName": "yaoxin-manga-0.3.3.apk",
+          "sha256": "a08fcac7c08a7e47b64e2de7a7efa68b56bc7ba2d0a26b50777ed20a190bd388",
+          "sizeBytes": 35901963,
+          "publishedAt": "2026-11-19T14:06:23Z",
+          "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        },
         {
           "versionName": "0.3.2",
           "versionCode": 5,
@@ -590,5 +604,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T14:05:44Z"
+  "generatedAt": "2026-11-19T14:06:32Z"
 }
