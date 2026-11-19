@@ -339,20 +339,34 @@
       "packageName": "com.xiaojing.autocrop",
       "tagPrefix": "autocrop",
       "latest": {
-        "versionName": "1.1.2",
-        "versionCode": 6,
-        "tag": "autocrop-v1.1.2",
-        "releaseName": "瑤芯自動截圖 1.1.2",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.2",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.2/yaoxin-autocrop-1.1.2.apk",
-        "assetName": "yaoxin-autocrop-1.1.2.apk",
-        "sha256": "969e9522697e57dfa3420757e5f254dfeaaa1e40c2b553f73dcc42e2597ce814",
-        "sizeBytes": 11103391,
-        "publishedAt": "2026-11-19T12:57:57Z",
-        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+        "versionName": "1.1.3",
+        "versionCode": 7,
+        "tag": "autocrop-v1.1.3",
+        "releaseName": "瑤芯自動截圖 1.1.3",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.3",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.3/yaoxin-autocrop-1.1.3.apk",
+        "assetName": "yaoxin-autocrop-1.1.3.apk",
+        "sha256": "2d529b200beb42be5a8ae9fa21ae9d05408292581b5d19e0bf19f098b8b4a72a",
+        "sizeBytes": 11294187,
+        "publishedAt": "2026-11-19T14:05:31Z",
+        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
         "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
       },
       "versions": [
+        {
+          "versionName": "1.1.3",
+          "versionCode": 7,
+          "tag": "autocrop-v1.1.3",
+          "releaseName": "瑤芯自動截圖 1.1.3",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.3",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.3/yaoxin-autocrop-1.1.3.apk",
+          "assetName": "yaoxin-autocrop-1.1.3.apk",
+          "sha256": "2d529b200beb42be5a8ae9fa21ae9d05408292581b5d19e0bf19f098b8b4a72a",
+          "sizeBytes": 11294187,
+          "publishedAt": "2026-11-19T14:05:31Z",
+          "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
+        },
         {
           "versionName": "1.1.2",
           "versionCode": 6,
@@ -562,5 +576,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T14:05:26Z"
+  "generatedAt": "2026-11-19T14:05:36Z"
 }
