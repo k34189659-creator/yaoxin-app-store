@@ -155,20 +155,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.25.2",
-        "versionCode": 59,
-        "tag": "filemanager-v0.25.2",
-        "releaseName": "瑤芯檔案管理器 0.25.2",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.25.2",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.25.2/yaoxin-filemanager-0.25.2.apk",
-        "assetName": "yaoxin-filemanager-0.25.2.apk",
-        "sha256": "92e5fac71dff40907e0dd67d6fb82486419c8f57bc00a47013336d589a02b458",
-        "sizeBytes": 11378656,
-        "publishedAt": "2026-11-19T14:04:54Z",
-        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+        "versionName": "0.28.0",
+        "versionCode": 63,
+        "tag": "filemanager-v0.28.0",
+        "releaseName": "瑤芯檔案管理器 0.28.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.28.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.28.0/yaoxin-filemanager-0.28.0.apk",
+        "assetName": "yaoxin-filemanager-0.28.0.apk",
+        "sha256": "a0079aa9ef9c7fb0f32495f74021c4c0669e4e63b547e37963b6c17e1d66ad28",
+        "sizeBytes": 13268132,
+        "publishedAt": "2026-11-19T17:02:46Z",
+        "changelog": "櫻花 UI 重製：首頁/瀏覽/收藏/工具箱/設定全新版面、底部五鍵導覽、ZIP 新圖示、卡片去白框、深色模式支援",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.28.0",
+          "versionCode": 63,
+          "tag": "filemanager-v0.28.0",
+          "releaseName": "瑤芯檔案管理器 0.28.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.28.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.28.0/yaoxin-filemanager-0.28.0.apk",
+          "assetName": "yaoxin-filemanager-0.28.0.apk",
+          "sha256": "a0079aa9ef9c7fb0f32495f74021c4c0669e4e63b547e37963b6c17e1d66ad28",
+          "sizeBytes": 13268132,
+          "publishedAt": "2026-11-19T17:02:46Z",
+          "changelog": "櫻花 UI 重製：首頁/瀏覽/收藏/工具箱/設定全新版面、底部五鍵導覽、ZIP 新圖示、卡片去白框、深色模式支援",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.25.2",
           "versionCode": 59,
@@ -604,5 +618,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T14:06:32Z"
+  "generatedAt": "2026-11-19T17:02:52Z"
 }
