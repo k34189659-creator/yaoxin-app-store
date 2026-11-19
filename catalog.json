@@ -149,20 +149,34 @@
       "packageName": "tw.dafeiyu.mangatranslator",
       "tagPrefix": "manga",
       "latest": {
-        "versionName": "0.3.1",
-        "versionCode": 4,
-        "tag": "manga-v0.3.1",
-        "releaseName": "瑤芯漫畫翻譯 0.3.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.1/yaoxin-manga-0.3.1.apk",
-        "assetName": "yaoxin-manga-0.3.1.apk",
-        "sha256": "01ebbafd48027f63ed451a118837fb35e4c653434d60ddc10436700daeece3b1",
-        "sizeBytes": 35146015,
-        "publishedAt": "2026-11-19T10:01:35Z",
-        "changelog": "0.3.1：修正整頁被分類為不可擦時完全沒變更（保底保守擦字）",
+        "versionName": "0.3.2",
+        "versionCode": 5,
+        "tag": "manga-v0.3.2",
+        "releaseName": "瑤芯漫畫翻譯 0.3.2",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.2",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.2/yaoxin-manga-0.3.2.apk",
+        "assetName": "yaoxin-manga-0.3.2.apk",
+        "sha256": "37492ac5012a11c411378a9a2c311fb1ff927c5cf640fe794d3b5d1e1daed646",
+        "sizeBytes": 35805003,
+        "publishedAt": "2026-11-19T12:56:40Z",
+        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
         "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
       },
       "versions": [
+        {
+          "versionName": "0.3.2",
+          "versionCode": 5,
+          "tag": "manga-v0.3.2",
+          "releaseName": "瑤芯漫畫翻譯 0.3.2",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.2",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.2/yaoxin-manga-0.3.2.apk",
+          "assetName": "yaoxin-manga-0.3.2.apk",
+          "sha256": "37492ac5012a11c411378a9a2c311fb1ff927c5cf640fe794d3b5d1e1daed646",
+          "sizeBytes": 35805003,
+          "publishedAt": "2026-11-19T12:56:40Z",
+          "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        },
         {
           "versionName": "0.3.1",
           "versionCode": 4,
@@ -366,5 +380,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T10:56:53Z"
+  "generatedAt": "2026-11-19T12:56:50Z"
 }
