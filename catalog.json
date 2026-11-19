@@ -269,20 +269,34 @@
       "packageName": "com.xiaojing.autocrop",
       "tagPrefix": "autocrop",
       "latest": {
-        "versionName": "1.1.1",
-        "versionCode": 5,
-        "tag": "autocrop-v1.1.1",
-        "releaseName": "瑤芯自動截圖 1.1.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.1/yaoxin-autocrop-1.1.1.apk",
-        "assetName": "yaoxin-autocrop-1.1.1.apk",
-        "sha256": "c7b6f21bdd017b939607bce5a0824bccfeceda8f7a21632bd23d32a68dcee6e8",
-        "sizeBytes": 10736875,
-        "publishedAt": "2026-11-18T18:08:29Z",
-        "changelog": "瑤芯自動截圖 1.1.1 首次上架瑤芯應用商店。",
+        "versionName": "1.1.2",
+        "versionCode": 6,
+        "tag": "autocrop-v1.1.2",
+        "releaseName": "瑤芯自動截圖 1.1.2",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.2",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.2/yaoxin-autocrop-1.1.2.apk",
+        "assetName": "yaoxin-autocrop-1.1.2.apk",
+        "sha256": "969e9522697e57dfa3420757e5f254dfeaaa1e40c2b553f73dcc42e2597ce814",
+        "sizeBytes": 11103391,
+        "publishedAt": "2026-11-19T12:57:57Z",
+        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
         "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
       },
       "versions": [
+        {
+          "versionName": "1.1.2",
+          "versionCode": 6,
+          "tag": "autocrop-v1.1.2",
+          "releaseName": "瑤芯自動截圖 1.1.2",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.2",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.2/yaoxin-autocrop-1.1.2.apk",
+          "assetName": "yaoxin-autocrop-1.1.2.apk",
+          "sha256": "969e9522697e57dfa3420757e5f254dfeaaa1e40c2b553f73dcc42e2597ce814",
+          "sizeBytes": 11103391,
+          "publishedAt": "2026-11-19T12:57:57Z",
+          "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
+        },
         {
           "versionName": "1.1.1",
           "versionCode": 5,
@@ -450,5 +464,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T12:57:47Z"
+  "generatedAt": "2026-11-19T12:58:02Z"
 }
