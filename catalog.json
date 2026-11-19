@@ -275,20 +275,34 @@
       "packageName": "tw.dafeiyu.mangatranslator",
       "tagPrefix": "manga",
       "latest": {
-        "versionName": "0.3.3",
-        "versionCode": 6,
-        "tag": "manga-v0.3.3",
-        "releaseName": "瑤芯漫畫翻譯 0.3.3",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.3.3",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.3.3/yaoxin-manga-0.3.3.apk",
-        "assetName": "yaoxin-manga-0.3.3.apk",
-        "sha256": "a08fcac7c08a7e47b64e2de7a7efa68b56bc7ba2d0a26b50777ed20a190bd388",
-        "sizeBytes": 35901963,
-        "publishedAt": "2026-11-19T14:06:23Z",
-        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+        "versionName": "0.4.1",
+        "versionCode": 8,
+        "tag": "manga-v0.4.1",
+        "releaseName": "瑤芯漫畫翻譯 0.4.1",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.4.1",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.4.1/yaoxin-manga-0.4.1.apk",
+        "assetName": "yaoxin-manga-0.4.1.apk",
+        "sha256": "2b03c2cc1b16cba98e606cf8748f83fd035badd0bbdf17c8ca204691c89bae9f",
+        "sizeBytes": 36849473,
+        "publishedAt": "2026-11-19T21:52:49Z",
+        "changelog": "翻譯核心退回 0.2.0 原始流程（Legacy020）＋新版介面；本版為使用者指定的穩定回退版本",
         "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
       },
       "versions": [
+        {
+          "versionName": "0.4.1",
+          "versionCode": 8,
+          "tag": "manga-v0.4.1",
+          "releaseName": "瑤芯漫畫翻譯 0.4.1",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.4.1",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.4.1/yaoxin-manga-0.4.1.apk",
+          "assetName": "yaoxin-manga-0.4.1.apk",
+          "sha256": "2b03c2cc1b16cba98e606cf8748f83fd035badd0bbdf17c8ca204691c89bae9f",
+          "sizeBytes": 36849473,
+          "publishedAt": "2026-11-19T21:52:49Z",
+          "changelog": "翻譯核心退回 0.2.0 原始流程（Legacy020）＋新版介面；本版為使用者指定的穩定回退版本",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        },
         {
           "versionName": "0.3.3",
           "versionCode": 6,
@@ -646,5 +660,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T18:50:30Z"
+  "generatedAt": "2026-11-19T21:52:59Z"
 }
