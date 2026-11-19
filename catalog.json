@@ -363,20 +363,34 @@
       "packageName": "tw.dafeiyu.musicplayer",
       "tagPrefix": "musicplayer",
       "latest": {
-        "versionName": "0.3.0",
-        "versionCode": 3,
-        "tag": "musicplayer-v0.3.0",
-        "releaseName": "瑤芯音樂播放器 0.3.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.3.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.3.0/yaoxin-musicplayer-0.3.0.apk",
-        "assetName": "yaoxin-musicplayer-0.3.0.apk",
-        "sha256": "2575643eec5434d5003d56b7889666f105f3b6d204092aff35bc17aa681bd3ae",
-        "sizeBytes": 15331984,
-        "publishedAt": "2026-11-18T14:56:56Z",
-        "changelog": "本機 AI 診斷／重試、DeepSeek ASR、進階人聲分離（versionCode 3）。\n\n### 本機 Whisper 修正（保留原有功能）\n\n- 修正「自動語言」被誤設為 `detect_language=true`、只偵測語言就結束而得到 0 個\n  segment 的問題；改為傳 `language=\"auto\"` 並照常轉錄。\n- 不再因單次空結果直接判定「沒有人聲」：\n  1. 先檢查解碼長度、peak／RMS；音量過低會顯示明確原因。\n  2. 全曲使用預設 no-speech 門檻。\n  3. 失敗後以 120 秒片段、放寬 `no_speech_thold=1.0` 重試。\n  4. 再抓最響的 30 秒；auto 時依序嘗試中文／日文／英文。\n  5. 全部失敗才顯示診斷資訊（長度、peak、rms）並建議 DeepSeek。\n- 原生層對極低音量做輕度 gain，並記錄 samples／peak（不含音訊內容）。\n- 這些修正不影響既有播放、本機歌詞、內嵌、LRCLIB 或快取。\n\n### DeepSeek ASR 引擎\n\n- 新增 `POST https://api.deepseek.com/v1/tools/asr` 引擎：\n  - 依官方限制切成 ≤120 秒、≤8 MiB 的 16-bit PCM WAV 片段。\n  - 逐一送出，保留每段 `startMs/endMs` 與文字。\n  - 官方回應只有 `text`／`duration_ms`／`request_id`，沒有逐行時間。\n- 新增三種模式：**本機 Whisper / DeepSeek API / 自動（本機優先）**；\n  自動模式在本機無結果時詢問是否改用 DeepSeek，不會自動上傳。\n- DeepSeek 文字不平均分配到時間軸。若本機模型可用，使用獨立的\n  `LyricAligner`／本機 ASR 嘗試逐行對齊；失敗則保存純文字與分段資訊，\n  不產生假的同步 LRC。\n- API Key 使用 Android Keystore AES/GCM 加密保存，不硬編碼、不寫日誌；\n  API Key 必須由使用者自行輸入。\n\n### 人聲分離\n\n- Android 端不打包 Demucs／UVR（模型與 CPU 成本過高）；本機與 DeepSeek\n  預設直接辨識。\n- 進階電腦端服務新增可選 Demucs 人聲分離：\n  - 只有使用者開啟「電腦端人聲分離」且電腦端已安裝 Demucs 才執行。\n  - 未安裝時明確回 422，不影響播放或本機／DeepSeek 路徑。\n\n### 回歸與測試\n\n- JVM 單元測試 **59 項全過**（原 50＋PcmTools 3＋DeepSeek 分段 2＋DeepSeek 用戶端 4）。\n- Python 服務測試 **15 項全過**（Demucs 未安裝時仍正確回 422）。\n- 真實音訊（Linux，同一 JNI）：中文歌聲、英文、日文均取得有效文字與段時間。\n- DeepSeek 官方端點可達；無可用 API Key，因此未宣稱完成實際 API 文字辨識；\n  已用 MockWebServer 驗證 multipart、授權、錯誤映射與 8 MiB 限制。\n- Android APK 已含修正後 ARM64 JNI；實機 UI 與 DeepSeek 實際 Key 測試需使用者\n  安裝後確認。",
+        "versionName": "0.3.1",
+        "versionCode": 4,
+        "tag": "musicplayer-v0.3.1",
+        "releaseName": "瑤芯音樂播放器 0.3.1",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.3.1",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.3.1/yaoxin-musicplayer-0.3.1.apk",
+        "assetName": "yaoxin-musicplayer-0.3.1.apk",
+        "sha256": "d7db1e1e2668f422d61cf77c7db0db883d5f79de1283c77f3e0cf82f194c60b0",
+        "sizeBytes": 15930430,
+        "publishedAt": "2026-11-19T12:57:09Z",
+        "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
         "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
       },
       "versions": [
+        {
+          "versionName": "0.3.1",
+          "versionCode": 4,
+          "tag": "musicplayer-v0.3.1",
+          "releaseName": "瑤芯音樂播放器 0.3.1",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.3.1",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.3.1/yaoxin-musicplayer-0.3.1.apk",
+          "assetName": "yaoxin-musicplayer-0.3.1.apk",
+          "sha256": "d7db1e1e2668f422d61cf77c7db0db883d5f79de1283c77f3e0cf82f194c60b0",
+          "sizeBytes": 15930430,
+          "publishedAt": "2026-11-19T12:57:09Z",
+          "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
+          "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
+        },
         {
           "versionName": "0.3.0",
           "versionCode": 3,
@@ -394,5 +408,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T12:57:03Z"
+  "generatedAt": "2026-11-19T12:57:16Z"
 }
