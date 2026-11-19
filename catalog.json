@@ -14,9 +14,9 @@
         "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.4",
         "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.4/yaoxin-store-1.0.4.apk",
         "assetName": "yaoxin-store-1.0.4.apk",
-        "sha256": "41ca58ee9dc356806e83818909adeebcb0a0914a239a4dc313ffe53aa2c0b485",
+        "sha256": "d75661022d7ba1c7565efa8846ebec8bfa77987e5b438e7490409120d4e40697",
         "sizeBytes": 11632314,
-        "publishedAt": "2026-11-19T10:52:42Z",
+        "publishedAt": "2026-11-19T10:56:47Z",
         "changelog": "1.0.4：下載完成後改為「安裝」按鈕、保留 APK 可重裝；新增解除安裝與開啟",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
@@ -29,9 +29,9 @@
           "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.0.4",
           "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.0.4/yaoxin-store-1.0.4.apk",
           "assetName": "yaoxin-store-1.0.4.apk",
-          "sha256": "41ca58ee9dc356806e83818909adeebcb0a0914a239a4dc313ffe53aa2c0b485",
+          "sha256": "d75661022d7ba1c7565efa8846ebec8bfa77987e5b438e7490409120d4e40697",
           "sizeBytes": 11632314,
-          "publishedAt": "2026-11-19T10:52:42Z",
+          "publishedAt": "2026-11-19T10:56:47Z",
           "changelog": "1.0.4：下載完成後改為「安裝」按鈕、保留 APK 可重裝；新增解除安裝與開啟",
           "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
         },
@@ -366,5 +366,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T10:53:04Z"
+  "generatedAt": "2026-11-19T10:56:53Z"
 }
