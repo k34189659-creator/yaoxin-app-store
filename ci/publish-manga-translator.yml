@@ -46,11 +46,20 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install SDK packages
-        run: sdkmanager --install "platforms;android-35" "build-tools;35.0.0" > /dev/null
+      # GitHub 的 ubuntu runner 已預裝 Android SDK，直接用內建的 sdkmanager
+      - name: Install Android SDK packages
+        run: |
+          set -euo pipefail
+          echo "ANDROID_HOME=${ANDROID_HOME:-}"
+          SDKM="$(command -v sdkmanager || true)"
+          if [ -z "$SDKM" ]; then
+            SDKM="$(find "${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools" -name sdkmanager -type f 2>/dev/null | head -1)"
+          fi
+          echo "sdkmanager: $SDKM"
+          yes | "$SDKM" --licenses > /dev/null 2>&1 || true
+          "$SDKM" --install "platforms;android-35" "build-tools;35.0.0" | tail -3
+          echo "ANDROID_SDK_ROOT=${ANDROID_SDK_ROOT:-$ANDROID_HOME}" >> "$GITHUB_ENV"
+          ls "$ANDROID_HOME/build-tools" || true
 
       # 簽章金鑰來自 Secret；尚未設定時仍可編譯（以臨時金鑰簽署，只作編譯驗證，不會發布）
       - name: Restore signing keystore
