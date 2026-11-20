@@ -169,20 +169,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.29.2",
-        "versionCode": 66,
-        "tag": "filemanager-v0.29.2",
-        "releaseName": "瑤芯檔案管理器 0.29.2",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.29.2",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.29.2/yaoxin-filemanager-0.29.2.apk",
-        "assetName": "yaoxin-filemanager-0.29.2.apk",
-        "sha256": "16876bb89da9387354b260b78458faffdfa458fa45fd7ce9d2d7ba4b02010551",
-        "sizeBytes": 13300900,
-        "publishedAt": "2026-11-20T00:19:40Z",
-        "changelog": "底部五頁導覽（首頁/檔案/收藏/工具/設定）、星號收藏與批次收藏、工具頁承接原側邊抽屜功能、重複掃描改以內容相似度 >50% 判定（支援 ZIP/CBZ 不同檔名）、回收站網格與清單雙檢視",
+        "versionName": "0.30.0",
+        "versionCode": 67,
+        "tag": "filemanager-v0.30.0",
+        "releaseName": "瑤芯檔案管理器 0.30.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.30.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.30.0/yaoxin-filemanager-0.30.0.apk",
+        "assetName": "yaoxin-filemanager-0.30.0.apk",
+        "sha256": "89956d4952bda08ae66129df7b0227602e098f1faabd2601cf1cbd7500f44e3a",
+        "sizeBytes": 13317284,
+        "publishedAt": "2026-11-20T21:35:01Z",
+        "changelog": "長名稱改名編輯區；剪貼簿資訊列；資料夾返回/向上恢復捲動位置與像素偏移；搜尋結果長按可直接改名/刪除/複製/剪下/分享/查看；每個資料夾記住排序與檢視設定；選取選單補回複製到/移動到/新分頁/用其他 App 開啟",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.30.0",
+          "versionCode": 67,
+          "tag": "filemanager-v0.30.0",
+          "releaseName": "瑤芯檔案管理器 0.30.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.30.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.30.0/yaoxin-filemanager-0.30.0.apk",
+          "assetName": "yaoxin-filemanager-0.30.0.apk",
+          "sha256": "89956d4952bda08ae66129df7b0227602e098f1faabd2601cf1cbd7500f44e3a",
+          "sizeBytes": 13317284,
+          "publishedAt": "2026-11-20T21:35:01Z",
+          "changelog": "長名稱改名編輯區；剪貼簿資訊列；資料夾返回/向上恢復捲動位置與像素偏移；搜尋結果長按可直接改名/刪除/複製/剪下/分享/查看；每個資料夾記住排序與檢視設定；選取選單補回複製到/移動到/新分頁/用其他 App 開啟",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.29.2",
           "versionCode": 66,
@@ -716,5 +730,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-20T21:34:54Z"
+  "generatedAt": "2026-11-20T21:35:08Z"
 }
