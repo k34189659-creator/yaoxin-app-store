@@ -7,20 +7,34 @@
       "packageName": "tw.dafeiyu.store",
       "tagPrefix": "store",
       "latest": {
-        "versionName": "1.1.0",
-        "versionCode": 17,
-        "tag": "store-v1.1.0",
-        "releaseName": "瑤芯應用商店 1.1.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.1.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.1.0/yaoxin-store-1.1.0.apk",
-        "assetName": "yaoxin-store-1.1.0.apk",
-        "sha256": "9861d25456592a50b6fb50910e7769e0d1b74c626201fe8fdd769e9843d31484",
-        "sizeBytes": 13263062,
-        "publishedAt": "2026-11-19T18:50:24Z",
-        "changelog": "更新管理改為全部更新（商店自己最後）、下載驗證通過後自動提交系統安裝頁、取消安裝保留 APK 可重試、新增 QUEUED_INSTALL 狀態、粉紫品牌化",
+        "versionName": "1.2.0",
+        "versionCode": 19,
+        "tag": "store-v1.2.0",
+        "releaseName": "瑤芯應用商店 1.2.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.2.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.2.0/yaoxin-store-1.2.0.apk",
+        "assetName": "yaoxin-store-1.2.0.apk",
+        "sha256": "a73ab0cadb3b2ca54e0470468788ced15e4ca459cc22cb43faec4eb227391260",
+        "sizeBytes": 13294570,
+        "publishedAt": "2026-11-20T21:35:34Z",
+        "changelog": "修復詳情轉下載後的返回路徑並保留搜尋/篩選/列表狀態；新增首頁搜尋、安裝狀態篩選與收藏；安裝包空間與批次清理（保留失敗/取消重試）；逐應用穩定/測試更新來源；修正重用商店 APK 的佇列排序與安裝結果競態；品牌圖與按鈕對比fine-tuning",
         "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
       },
       "versions": [
+        {
+          "versionName": "1.2.0",
+          "versionCode": 19,
+          "tag": "store-v1.2.0",
+          "releaseName": "瑤芯應用商店 1.2.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/store-v1.2.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/store-v1.2.0/yaoxin-store-1.2.0.apk",
+          "assetName": "yaoxin-store-1.2.0.apk",
+          "sha256": "a73ab0cadb3b2ca54e0470468788ced15e4ca459cc22cb43faec4eb227391260",
+          "sizeBytes": 13294570,
+          "publishedAt": "2026-11-20T21:35:34Z",
+          "changelog": "修復詳情轉下載後的返回路徑並保留搜尋/篩選/列表狀態；新增首頁搜尋、安裝狀態篩選與收藏；安裝包空間與批次清理（保留失敗/取消重試）；逐應用穩定/測試更新來源；修正重用商店 APK 的佇列排序與安裝結果競態；品牌圖與按鈕對比fine-tuning",
+          "signerSha256": "5014318082dcddcb49c9854eb48c87f0d41708c08c5735e885b27b6ef6a06d93"
+        },
         {
           "versionName": "1.1.0",
           "versionCode": 17,
@@ -744,5 +758,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-20T21:35:24Z"
+  "generatedAt": "2026-11-20T21:35:40Z"
 }
