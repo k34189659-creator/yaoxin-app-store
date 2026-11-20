@@ -72,9 +72,27 @@ jobs:
             echo "signed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > /tmp/ci-debug.keystore
+          keytool -list -keystore /tmp/ci-debug.keystore -storepass android 2>/dev/null | grep -qi androiddebugkey
+
+          # AGP 找 debug.keystore 的位置依環境而異（HOME / ANDROID_SDK_HOME / ANDROID_PREFS_ROOT），全部鋪一份
           mkdir -p "$HOME/.android"
-          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$HOME/.android/debug.keystore"
-          keytool -list -keystore "$HOME/.android/debug.keystore" -storepass android 2>/dev/null | grep -qi androiddebugkey
+          cp /tmp/ci-debug.keystore "$HOME/.android/debug.keystore"
+          echo "ANDROID_PREFS_ROOT=$HOME" >> "$GITHUB_ENV"
+
+          PREFS="$GITHUB_WORKSPACE/.ci-prefs"
+          mkdir -p "$PREFS/.android"
+          cp /tmp/ci-debug.keystore "$PREFS/.android/debug.keystore"
+          echo "MANGA_PREFS_ROOT=$PREFS" >> "$GITHUB_ENV"
+
+          for root in "${ANDROID_SDK_HOME:-}" "/usr/local/lib/android/sdk"; do
+            if [ -n "$root" ] && [ -d "$root" ] && [ -w "$root" ]; then
+              mkdir -p "$root/.android" && cp /tmp/ci-debug.keystore "$root/.android/debug.keystore" || true
+            fi
+          done
+
+          echo "keystore sha256：$(sha256sum /tmp/ci-debug.keystore | cut -d' ' -f1)"
+          echo "HOME=$HOME ANDROID_SDK_HOME=${ANDROID_SDK_HOME:-未設定} ANDROID_SDK_ROOT=${ANDROID_SDK_ROOT:-未設定}"
           echo "signed=true" >> $GITHUB_OUTPUT
 
       - name: Unit tests
@@ -83,7 +101,10 @@ jobs:
 
       - name: Build APK
         working-directory: apps/manga-translator
-        run: ./gradlew :app:assembleDebug --no-daemon --console=plain
+        run: |
+          echo "ANDROID_PREFS_ROOT=${ANDROID_PREFS_ROOT:-} ANDROID_SDK_HOME=${ANDROID_SDK_HOME:-}"
+          ls -l "$HOME/.android/debug.keystore" 2>/dev/null || true
+          ./gradlew :app:assembleDebug --no-daemon --console=plain
 
       # 硬性比對完整指紋：不一致就讓 workflow 失敗
       - name: Verify APK signer fingerprint
