@@ -27,6 +27,8 @@ def main() -> int:
     ap.add_argument("--apk", required=True)
     ap.add_argument("--catalog", default="catalog.json")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--require-signer", default="",
+                    help="要求的簽章憑證 SHA-256；不符時一律不發布")
     args = ap.parse_args()
 
     info = publish.read_apk(Path(args.apk).expanduser().resolve())
@@ -38,6 +40,13 @@ def main() -> int:
         if app.get("packageName") == info.package:
             latest = app.get("latest") or {}
             break
+
+    if args.require_signer:
+        actual = (info.signer_sha256 or "").lower()
+        expected = args.require_signer.lower()
+        if actual != expected:
+            print(f"::error::APK 簽章不符：預期 {expected}，實際 {actual or '（讀不到）'}", flush=True)
+            return emit(False, f"簽章不符（實際 {actual or '無'}）→ 停止發布")
 
     latest_code = int(latest.get("versionCode") or 0)
     latest_name = latest.get("versionName") or "（無）"
