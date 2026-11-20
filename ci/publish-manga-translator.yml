@@ -91,7 +91,13 @@ jobs:
         run: |
           export PATH="$PATH:$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"
           aapt2 dump badging "$APK" | head -1
-          ACTUAL=$(apksigner verify --print-certs "$APK" | sed -n 's/^Signer #1 certificate SHA-256 digest: //p' | tr -d '[:space:]')
+          echo "--- apksigner 原始輸出 ---"
+          apksigner verify --print-certs "$APK" 2>&1 | sed 's/^/  /' || true
+          ACTUAL=$(apksigner verify --print-certs "$APK" 2>&1 | grep -i 'sha-256 digest' | head -1 | sed 's/.*digest: *//' | tr -d '[:space:]')
+          if [ -z "$ACTUAL" ]; then
+            echo "apksigner 取不到指紋，改用 keytool 讀取 APK 憑證"
+            ACTUAL=$(keytool -printcert -jarfile "$APK" 2>/dev/null | grep -i 'SHA256:' | head -1 | sed 's/.*SHA256: *//' | tr -d '[:space:]' | tr 'A-F' 'a-f')
+          fi
           echo "預期：$EXPECTED_SIGNER"
           echo "實際：$ACTUAL"
           echo "actual=$ACTUAL" >> $GITHUB_OUTPUT
@@ -125,6 +131,14 @@ jobs:
           export PATH="$PATH:$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"
           NOTES="由 GitHub Actions 自動建置並發布（commit ${GITHUB_SHA::7}）"
           python3 tools/publish.py --config tools/config.json --apk "$APK" --notes "$NOTES" --yes
+
+      - name: Upload APK
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manga-translator-apk
+          path: apps/manga-translator/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: warn
 
       - name: Summary
         if: always()
