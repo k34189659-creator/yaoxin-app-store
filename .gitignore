@@ -1,0 +1,18 @@
+# Gradle / Android 建置產物
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 簽章金鑰永不進版控
+*.jks
+*.keystore
+!keystore/README.md
+
+# 大型暫存
+dist/
+*.log

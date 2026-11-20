@@ -1,0 +1,35 @@
+{
+  "repository": "k34189659-creator/yaoxin-app-store",
+  "branch": "main",
+  "catalogPath": "catalog.json",
+  "apps": {
+    "tw.dafeiyu.musicplayer": {
+      "name": "瑤芯音樂播放器",
+      "tagPrefix": "musicplayer"
+    },
+    "tw.dafeiyu.filemanager": {
+      "name": "瑤芯檔案管理器",
+      "tagPrefix": "filemanager"
+    },
+    "tw.dafeiyu.store": {
+      "name": "瑤芯應用商店",
+      "tagPrefix": "store"
+    },
+    "tw.dafeiyu.mangashelf": {
+      "name": "瑤芯閱讀器",
+      "tagPrefix": "reader"
+    },
+    "app.gacha7": {
+      "name": "瑤芯遊戲小助手",
+      "tagPrefix": "gacha"
+    },
+    "com.xiaojing.autocrop": {
+      "name": "瑤芯自動截圖",
+      "tagPrefix": "autocrop"
+    },
+    "tw.dafeiyu.mangatranslator": {
+      "name": "瑤芯漫畫翻譯",
+      "tagPrefix": "manga"
+    }
+  }
+}

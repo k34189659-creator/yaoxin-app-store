@@ -1,0 +1,23 @@
+{
+  "version": "ppocr-v6-manga-v0.3",
+  "note": "PP-OCRv6 Manga（Kellenok/PP-OCRv6_manga，revision v0.3，Apache-2.0）。FP32 ONNX：det 1.73MB + rec 21.33MB。App 以 ONNX Runtime 在 ARM64 CPU 執行；字典檔隨 APK 打包。首次切換到標準/高品質模式時下載，逐檔比對 size + SHA-256。",
+  "source": "https://huggingface.co/Kellenok/PP-OCRv6_manga",
+  "revision": "v0.3",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "role": "ppocr",
+      "name": "ppocr_det.onnx",
+      "url": "https://huggingface.co/Kellenok/PP-OCRv6_manga/resolve/v0.3/det/manga_det.onnx?download=true",
+      "size": 1816958,
+      "sha256": "97c434ae8deaad83513fb132b605d5085a3af8ffac2cb15e2aa096815c206172"
+    },
+    {
+      "role": "ppocr",
+      "name": "ppocr_rec.onnx",
+      "url": "https://huggingface.co/Kellenok/PP-OCRv6_manga/resolve/v0.3/rec/manga_rec.onnx?download=true",
+      "size": 21334702,
+      "sha256": "5288bd221a9a047c6b7d1ff56bb98de8c875fb613df98ebe8754946448bda540"
+    }
+  ]
+}

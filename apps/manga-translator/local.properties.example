@@ -1,0 +1,3 @@
+# 複製成 local.properties（不要提交），填入自己的 Android SDK 路徑
+# Windows 範例：sdk.dir=C\:\\Users\\me\\AppData\\Local\\Android\\Sdk
+sdk.dir=/path/to/android-sdk

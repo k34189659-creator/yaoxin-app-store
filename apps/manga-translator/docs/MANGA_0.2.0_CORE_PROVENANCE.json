@@ -1,0 +1,13 @@
+{
+  "0.2.0": {
+    "SmartTranslator.kt": "0a082827b64cf74b3e7e62958a2709e999ea010daf7a42be10ab959d41aad275",
+    "Inpainter.kt": "e8c4216fc29f3b35483952db68d4838bd7dfb1c09da56c1da5e256e93ad65d12",
+    "SmartRenderer.kt": "20b721d0d0564b3257569cb82da451f2139a86476cb4c0eaf4ca45c38bd6df0e",
+    "PromptRules.kt": "c06febb13e574902d6b8cd72ec312e045cb552fe39c557d12c385efbbd4a8d44"
+  },
+  "merge_mode": "0.4.0 UI/data/English mode + unmodified behavior of 0.2.0 Japanese translation pipeline, isolated legacy classes",
+  "base_0.2_source_archive": "yaoxin-manga-0.2.0-source.zip",
+  "source_0.4": "yaoxin-manga-0.4.0-full-source.zip",
+  "new_version": "0.4.1",
+  "new_version_code": 8
+}
