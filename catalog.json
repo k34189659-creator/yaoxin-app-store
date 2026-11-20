@@ -629,20 +629,34 @@
       "packageName": "tw.dafeiyu.musicplayer",
       "tagPrefix": "musicplayer",
       "latest": {
-        "versionName": "0.4.1",
-        "versionCode": 7,
-        "tag": "musicplayer-v0.4.1",
-        "releaseName": "瑤芯音樂播放器 0.4.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.4.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.4.1/yaoxin-musicplayer-0.4.1.apk",
-        "assetName": "yaoxin-musicplayer-0.4.1.apk",
-        "sha256": "bfa368274255b8d1191456cb310ddbc1763a7eb7e6f51e6fbe422b0dbf31fdba",
-        "sizeBytes": 16924974,
-        "publishedAt": "2026-11-19T18:50:12Z",
-        "changelog": "播放頁介面重製：品牌標頭、封面、進度與控制列、四宮格入口、播放清單卡；修正編譯遺漏的 dp import",
+        "versionName": "0.5.0",
+        "versionCode": 8,
+        "tag": "musicplayer-v0.5.0",
+        "releaseName": "瑤芯音樂播放器 0.5.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.5.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.5.0/yaoxin-musicplayer-0.5.0.apk",
+        "assetName": "yaoxin-musicplayer-0.5.0.apk",
+        "sha256": "9da77c90e882720ba07f5e762edffedf1b8d77b09c2e078dc4b5263b2e45859d",
+        "sizeBytes": 16972434,
+        "publishedAt": "2026-11-20T21:34:47Z",
+        "changelog": "修正分頁往返的搜尋字/清單位置/歌單保留；加入歌單視窗可搜尋；歌詞編輯與匯出改為快照且不誤寫其他歌曲；新增下一首播放、加入佇列最後、可排序佇列；曲庫新增資料夾/專輯/歌手分組與多種排序",
         "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
       },
       "versions": [
+        {
+          "versionName": "0.5.0",
+          "versionCode": 8,
+          "tag": "musicplayer-v0.5.0",
+          "releaseName": "瑤芯音樂播放器 0.5.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.5.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.5.0/yaoxin-musicplayer-0.5.0.apk",
+          "assetName": "yaoxin-musicplayer-0.5.0.apk",
+          "sha256": "9da77c90e882720ba07f5e762edffedf1b8d77b09c2e078dc4b5263b2e45859d",
+          "sizeBytes": 16972434,
+          "publishedAt": "2026-11-20T21:34:47Z",
+          "changelog": "修正分頁往返的搜尋字/清單位置/歌單保留；加入歌單視窗可搜尋；歌詞編輯與匯出改為快照且不誤寫其他歌曲；新增下一首播放、加入佇列最後、可排序佇列；曲庫新增資料夾/專輯/歌手分組與多種排序",
+          "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
+        },
         {
           "versionName": "0.4.1",
           "versionCode": 7,
@@ -702,5 +716,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-20T21:34:38Z"
+  "generatedAt": "2026-11-20T21:34:54Z"
 }
