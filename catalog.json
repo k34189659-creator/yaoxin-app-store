@@ -537,20 +537,34 @@
       "packageName": "tw.dafeiyu.mangashelf",
       "tagPrefix": "reader",
       "latest": {
-        "versionName": "1.2.6",
-        "versionCode": 23,
-        "tag": "reader-v1.2.6",
-        "releaseName": "瑤芯閱讀器 1.2.6",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.2.6",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.2.6/yaoxin-reader-1.2.6.apk",
-        "assetName": "yaoxin-reader-1.2.6.apk",
-        "sha256": "295344c9db50aa19f962f81891730962eb2273d19b352e4cf356616f5f601515",
-        "sizeBytes": 1661499,
-        "publishedAt": "2026-11-20T00:20:10Z",
-        "changelog": "遠端書庫（Tailscale 開房／連線）修正與穩定度提升；本機書庫、閱讀進度與資料格式不變",
+        "versionName": "1.3.0",
+        "versionCode": 24,
+        "tag": "reader-v1.3.0",
+        "releaseName": "瑤芯閱讀器 1.3.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.3.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.3.0/yaoxin-reader-1.3.0.apk",
+        "assetName": "yaoxin-reader-1.3.0.apk",
+        "sha256": "3364c6998a83eb8063776984df8b881c854a10bc7517de2e17f6510732a2b15a",
+        "sizeBytes": 1677881,
+        "publishedAt": "2026-11-20T21:34:34Z",
+        "changelog": "閱讀操作完整補強：完整書名資訊、遠端返回保留書架位置、失效漫畫重新連結並移轉進度、載入狀態與單頁重試、雙指/雙擊放大、頁碼輸入、縮圖導航、左右閱讀方向、直向連續閱讀、首頁繼續閱讀、亮屏開關",
         "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
       },
       "versions": [
+        {
+          "versionName": "1.3.0",
+          "versionCode": 24,
+          "tag": "reader-v1.3.0",
+          "releaseName": "瑤芯閱讀器 1.3.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.3.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.3.0/yaoxin-reader-1.3.0.apk",
+          "assetName": "yaoxin-reader-1.3.0.apk",
+          "sha256": "3364c6998a83eb8063776984df8b881c854a10bc7517de2e17f6510732a2b15a",
+          "sizeBytes": 1677881,
+          "publishedAt": "2026-11-20T21:34:34Z",
+          "changelog": "閱讀操作完整補強：完整書名資訊、遠端返回保留書架位置、失效漫畫重新連結並移轉進度、載入狀態與單頁重試、雙指/雙擊放大、頁碼輸入、縮圖導航、左右閱讀方向、直向連續閱讀、首頁繼續閱讀、亮屏開關",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        },
         {
           "versionName": "1.2.6",
           "versionCode": 23,
@@ -688,5 +702,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-20T00:20:13Z"
+  "generatedAt": "2026-11-20T21:34:38Z"
 }
