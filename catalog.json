@@ -537,20 +537,34 @@
       "packageName": "tw.dafeiyu.mangashelf",
       "tagPrefix": "reader",
       "latest": {
-        "versionName": "1.1.4",
-        "versionCode": 16,
-        "tag": "reader-v1.1.4",
-        "releaseName": "瑤芯閱讀器 1.1.4",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.1.4",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.1.4/yaoxin-reader-1.1.4.apk",
-        "assetName": "yaoxin-reader-1.1.4.apk",
-        "sha256": "cb3ead91d856f1deff85e37442d1f116632d33fae22527ef57f297164875070f",
-        "sizeBytes": 751743,
-        "publishedAt": "2026-11-19T14:05:42Z",
-        "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
+        "versionName": "1.2.6",
+        "versionCode": 23,
+        "tag": "reader-v1.2.6",
+        "releaseName": "瑤芯閱讀器 1.2.6",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.2.6",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.2.6/yaoxin-reader-1.2.6.apk",
+        "assetName": "yaoxin-reader-1.2.6.apk",
+        "sha256": "295344c9db50aa19f962f81891730962eb2273d19b352e4cf356616f5f601515",
+        "sizeBytes": 1661499,
+        "publishedAt": "2026-11-20T00:20:10Z",
+        "changelog": "遠端書庫（Tailscale 開房／連線）修正與穩定度提升；本機書庫、閱讀進度與資料格式不變",
         "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
       },
       "versions": [
+        {
+          "versionName": "1.2.6",
+          "versionCode": 23,
+          "tag": "reader-v1.2.6",
+          "releaseName": "瑤芯閱讀器 1.2.6",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.2.6",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.2.6/yaoxin-reader-1.2.6.apk",
+          "assetName": "yaoxin-reader-1.2.6.apk",
+          "sha256": "295344c9db50aa19f962f81891730962eb2273d19b352e4cf356616f5f601515",
+          "sizeBytes": 1661499,
+          "publishedAt": "2026-11-20T00:20:10Z",
+          "changelog": "遠端書庫（Tailscale 開房／連線）修正與穩定度提升；本機書庫、閱讀進度與資料格式不變",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        },
         {
           "versionName": "1.1.4",
           "versionCode": 16,
@@ -674,5 +688,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-20T00:20:03Z"
+  "generatedAt": "2026-11-20T00:20:13Z"
 }
