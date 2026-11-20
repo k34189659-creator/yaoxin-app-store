@@ -65,6 +65,27 @@ def aapt2_path() -> str:
     raise PublishError("TOOL", "找不到 aapt2；可用 AAPT2 環境變數指定")
 
 
+
+def _apk_signer_sha256(path: Path) -> str | None:
+    """讀出 APK 簽章憑證的 SHA-256（相容新舊 apksigner 輸出，失敗時退回 keytool）。"""
+    digest_re = re.compile(r"(?i)SHA-?256\s*digest:\s*([0-9a-f]{64})")
+    try:
+        out = run(["apksigner", "verify", "--print-certs", str(path)])
+        m = digest_re.search(out)
+        if m:
+            return m.group(1).lower()
+    except PublishError:
+        pass
+    try:
+        out = run(["keytool", "-printcert", "-jarfile", str(path)])
+        m = re.search(r"(?i)SHA256:\s*([0-9A-F:]{95})", out)
+        if m:
+            return m.group(1).replace(":", "").lower()
+    except PublishError:
+        pass
+    return None
+
+
 def read_apk(path: Path) -> ApkInfo:
     if not path.is_file():
         raise PublishError("APK_NOT_FOUND", f"APK 不存在：{path}")
@@ -100,14 +121,7 @@ def read_apk(path: Path) -> ApkInfo:
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             digest.update(chunk)
-    signer = None
-    try:
-        certs = run(["apksigner", "verify", "--print-certs", str(path)])
-        m = re.search(r"Signer #1 certificate SHA-256 digest:\s*([0-9a-fA-F]+)", certs)
-        if m:
-            signer = m.group(1).lower()
-    except PublishError:
-        pass
+    signer = _apk_signer_sha256(path)
     return ApkInfo(
         path=path,
         package=package,
