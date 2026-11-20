@@ -169,20 +169,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.28.0",
-        "versionCode": 63,
-        "tag": "filemanager-v0.28.0",
-        "releaseName": "瑤芯檔案管理器 0.28.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.28.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.28.0/yaoxin-filemanager-0.28.0.apk",
-        "assetName": "yaoxin-filemanager-0.28.0.apk",
-        "sha256": "a0079aa9ef9c7fb0f32495f74021c4c0669e4e63b547e37963b6c17e1d66ad28",
-        "sizeBytes": 13268132,
-        "publishedAt": "2026-11-19T17:02:46Z",
-        "changelog": "櫻花 UI 重製：首頁/瀏覽/收藏/工具箱/設定全新版面、底部五鍵導覽、ZIP 新圖示、卡片去白框、深色模式支援",
+        "versionName": "0.29.2",
+        "versionCode": 66,
+        "tag": "filemanager-v0.29.2",
+        "releaseName": "瑤芯檔案管理器 0.29.2",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.29.2",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.29.2/yaoxin-filemanager-0.29.2.apk",
+        "assetName": "yaoxin-filemanager-0.29.2.apk",
+        "sha256": "16876bb89da9387354b260b78458faffdfa458fa45fd7ce9d2d7ba4b02010551",
+        "sizeBytes": 13300900,
+        "publishedAt": "2026-11-20T00:19:40Z",
+        "changelog": "底部五頁導覽（首頁/檔案/收藏/工具/設定）、星號收藏與批次收藏、工具頁承接原側邊抽屜功能、重複掃描改以內容相似度 >50% 判定（支援 ZIP/CBZ 不同檔名）、回收站網格與清單雙檢視",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.29.2",
+          "versionCode": 66,
+          "tag": "filemanager-v0.29.2",
+          "releaseName": "瑤芯檔案管理器 0.29.2",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.29.2",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.29.2/yaoxin-filemanager-0.29.2.apk",
+          "assetName": "yaoxin-filemanager-0.29.2.apk",
+          "sha256": "16876bb89da9387354b260b78458faffdfa458fa45fd7ce9d2d7ba4b02010551",
+          "sizeBytes": 13300900,
+          "publishedAt": "2026-11-20T00:19:40Z",
+          "changelog": "底部五頁導覽（首頁/檔案/收藏/工具/設定）、星號收藏與批次收藏、工具頁承接原側邊抽屜功能、重複掃描改以內容相似度 >50% 判定（支援 ZIP/CBZ 不同檔名）、回收站網格與清單雙檢視",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.28.0",
           "versionCode": 63,
@@ -660,5 +674,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T21:52:59Z"
+  "generatedAt": "2026-11-20T00:20:03Z"
 }
