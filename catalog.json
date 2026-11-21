@@ -579,20 +579,34 @@
       "packageName": "tw.dafeiyu.mangashelf",
       "tagPrefix": "reader",
       "latest": {
-        "versionName": "1.3.0",
-        "versionCode": 24,
-        "tag": "reader-v1.3.0",
-        "releaseName": "瑤芯閱讀器 1.3.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.3.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.3.0/yaoxin-reader-1.3.0.apk",
-        "assetName": "yaoxin-reader-1.3.0.apk",
-        "sha256": "3364c6998a83eb8063776984df8b881c854a10bc7517de2e17f6510732a2b15a",
-        "sizeBytes": 1677881,
-        "publishedAt": "2026-11-20T21:34:34Z",
-        "changelog": "閱讀操作完整補強：完整書名資訊、遠端返回保留書架位置、失效漫畫重新連結並移轉進度、載入狀態與單頁重試、雙指/雙擊放大、頁碼輸入、縮圖導航、左右閱讀方向、直向連續閱讀、首頁繼續閱讀、亮屏開關",
+        "versionName": "1.5.5",
+        "versionCode": 33,
+        "tag": "reader-v1.5.5",
+        "releaseName": "瑤芯閱讀器 1.5.5",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.5.5",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.5.5/yaoxin-reader-1.5.5.apk",
+        "assetName": "yaoxin-reader-1.5.5.apk",
+        "sha256": "dc57aa446d148ed7679e5cb9094acc3f41745576da5d865b01c637adf36b6421",
+        "sizeBytes": 1755707,
+        "publishedAt": "2026-11-21T14:16:08Z",
+        "changelog": "新增整本下載管理（進度、等待順位、最近結果，可排隊至 100 本、中斷可重新入列）；同系列接著讀與下一本；下載可指定書櫃或既有系列；線上頁快速切換書源；修正系列頁高度與 Android 15/16 導覽列安全區，末列不再被遮擋",
         "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
       },
       "versions": [
+        {
+          "versionName": "1.5.5",
+          "versionCode": 33,
+          "tag": "reader-v1.5.5",
+          "releaseName": "瑤芯閱讀器 1.5.5",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.5.5",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.5.5/yaoxin-reader-1.5.5.apk",
+          "assetName": "yaoxin-reader-1.5.5.apk",
+          "sha256": "dc57aa446d148ed7679e5cb9094acc3f41745576da5d865b01c637adf36b6421",
+          "sizeBytes": 1755707,
+          "publishedAt": "2026-11-21T14:16:08Z",
+          "changelog": "新增整本下載管理（進度、等待順位、最近結果，可排隊至 100 本、中斷可重新入列）；同系列接著讀與下一本；下載可指定書櫃或既有系列；線上頁快速切換書源；修正系列頁高度與 Android 15/16 導覽列安全區，末列不再被遮擋",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        },
         {
           "versionName": "1.3.0",
           "versionCode": 24,
@@ -758,5 +772,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-20T21:35:40Z"
+  "generatedAt": "2026-11-21T14:16:16Z"
 }
