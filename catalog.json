@@ -460,6 +460,42 @@
       ]
     },
     {
+      "id": "tw.yaoxin.dragonvillage",
+      "name": "瑤芯的龍龍村",
+      "packageName": "tw.yaoxin.dragonvillage",
+      "tagPrefix": "dragonvillage",
+      "latest": {
+        "versionName": "0.2.11",
+        "versionCode": 13,
+        "tag": "dragonvillage-v0.2.11",
+        "releaseName": "瑤芯的龍龍村 0.2.11",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/dragonvillage-v0.2.11",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/dragonvillage-v0.2.11/yaoxin-dragonvillage-0.2.11.apk",
+        "assetName": "yaoxin-dragonvillage-0.2.11.apk",
+        "sha256": "be3ff9bcf19eb44a3189d9fc4b8e261dc9fe38d9ba69f1d246a7c1ef0940386a",
+        "sizeBytes": 41758478,
+        "publishedAt": "2026-11-21T22:39:40Z",
+        "changelog": "瑤芯的龍龍村：聊天與歷史延續、附件支援、住民封存／恢復、離線演示；內含完整 Node 執行環境與村子前端",
+        "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+      },
+      "versions": [
+        {
+          "versionName": "0.2.11",
+          "versionCode": 13,
+          "tag": "dragonvillage-v0.2.11",
+          "releaseName": "瑤芯的龍龍村 0.2.11",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/dragonvillage-v0.2.11",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/dragonvillage-v0.2.11/yaoxin-dragonvillage-0.2.11.apk",
+          "assetName": "yaoxin-dragonvillage-0.2.11.apk",
+          "sha256": "be3ff9bcf19eb44a3189d9fc4b8e261dc9fe38d9ba69f1d246a7c1ef0940386a",
+          "sizeBytes": 41758478,
+          "publishedAt": "2026-11-21T22:39:40Z",
+          "changelog": "瑤芯的龍龍村：聊天與歷史延續、附件支援、住民封存／恢復、離線演示；內含完整 Node 執行環境與村子前端",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        }
+      ]
+    },
+    {
       "id": "com.xiaojing.autocrop",
       "name": "瑤芯自動截圖",
       "packageName": "com.xiaojing.autocrop",
@@ -800,5 +836,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-21T22:39:32Z"
+  "generatedAt": "2026-11-21T22:39:51Z"
 }
