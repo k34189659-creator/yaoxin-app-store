@@ -331,20 +331,34 @@
       "packageName": "tw.dafeiyu.mangatranslator",
       "tagPrefix": "manga",
       "latest": {
-        "versionName": "0.4.1",
-        "versionCode": 8,
-        "tag": "manga-v0.4.1",
-        "releaseName": "瑤芯漫畫翻譯 0.4.1",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.4.1",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.4.1/yaoxin-manga-0.4.1.apk",
-        "assetName": "yaoxin-manga-0.4.1.apk",
-        "sha256": "2b03c2cc1b16cba98e606cf8748f83fd035badd0bbdf17c8ca204691c89bae9f",
-        "sizeBytes": 36849473,
-        "publishedAt": "2026-11-19T21:52:49Z",
-        "changelog": "翻譯核心退回 0.2.0 原始流程（Legacy020）＋新版介面；本版為使用者指定的穩定回退版本",
+        "versionName": "0.5.18",
+        "versionCode": 30,
+        "tag": "manga-v0.5.18",
+        "releaseName": "瑤芯漫畫翻譯 0.5.18",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.5.18",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.5.18/yaoxin-manga-0.5.18.apk",
+        "assetName": "yaoxin-manga-0.5.18.apk",
+        "sha256": "421c0eac84a762d5836f8aca051b87bb502579c037d7e5959534e7b9c42c6513",
+        "sizeBytes": 49172276,
+        "publishedAt": "2026-11-21T22:39:20Z",
+        "changelog": "英文頁繁中嵌字：字級互相參照、以實際字形描邊置中、斷行與分瓣保護；新增批次匯入語言選擇",
         "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
       },
       "versions": [
+        {
+          "versionName": "0.5.18",
+          "versionCode": 30,
+          "tag": "manga-v0.5.18",
+          "releaseName": "瑤芯漫畫翻譯 0.5.18",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/manga-v0.5.18",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/manga-v0.5.18/yaoxin-manga-0.5.18.apk",
+          "assetName": "yaoxin-manga-0.5.18.apk",
+          "sha256": "421c0eac84a762d5836f8aca051b87bb502579c037d7e5959534e7b9c42c6513",
+          "sizeBytes": 49172276,
+          "publishedAt": "2026-11-21T22:39:20Z",
+          "changelog": "英文頁繁中嵌字：字級互相參照、以實際字形描邊置中、斷行與分瓣保護；新增批次匯入語言選擇",
+          "signerSha256": "e81d2eb27ec26af5d90151e065cab45a4efd20181977dab765ba84738a99d9e8"
+        },
         {
           "versionName": "0.4.1",
           "versionCode": 8,
@@ -786,5 +800,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-21T22:39:13Z"
+  "generatedAt": "2026-11-21T22:39:32Z"
 }
