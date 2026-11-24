@@ -183,20 +183,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.30.2",
-        "versionCode": 69,
-        "tag": "filemanager-v0.30.2",
-        "releaseName": "瑤芯檔案管理器 0.30.2",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.30.2",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.30.2/yaoxin-filemanager-0.30.2.apk",
-        "assetName": "yaoxin-filemanager-0.30.2.apk",
-        "sha256": "738faf4f99853aab992608171f0013b4d1a67c59fc18197d144d6125e819b9cd",
-        "sizeBytes": 13333668,
-        "publishedAt": "2026-11-21T22:39:06Z",
-        "changelog": "ZIP 相關修正：長名稱改名、搜尋結果長按操作、資料夾回到上層恢復捲動位置、每個資料夾記住排序與檢視設定、選取選單補回複製到/移動到/新分頁/用其他 App 開啟",
+        "versionName": "0.31.6",
+        "versionCode": 76,
+        "tag": "filemanager-v0.31.6",
+        "releaseName": "瑤芯檔案管理器 0.31.6",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.31.6",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.31.6/yaoxin-filemanager-0.31.6.apk",
+        "assetName": "yaoxin-filemanager-0.31.6.apk",
+        "sha256": "1ea0220d794bd4d174ac1b57f284a73719a8e93d0148d5820c931d2c73e1dba2",
+        "sizeBytes": 13394796,
+        "publishedAt": "2026-11-24T14:35:43Z",
+        "changelog": "移除外接儲存（SD 卡）功能；原有檔案瀏覽、複製、移動、ZIP、垃圾桶、置頂、排序維持不變。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.31.6",
+          "versionCode": 76,
+          "tag": "filemanager-v0.31.6",
+          "releaseName": "瑤芯檔案管理器 0.31.6",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.31.6",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.31.6/yaoxin-filemanager-0.31.6.apk",
+          "assetName": "yaoxin-filemanager-0.31.6.apk",
+          "sha256": "1ea0220d794bd4d174ac1b57f284a73719a8e93d0148d5820c931d2c73e1dba2",
+          "sizeBytes": 13394796,
+          "publishedAt": "2026-11-24T14:35:43Z",
+          "changelog": "移除外接儲存（SD 卡）功能；原有檔案瀏覽、複製、移動、ZIP、垃圾桶、置頂、排序維持不變。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.30.2",
           "versionCode": 69,
@@ -836,5 +850,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-21T22:39:51Z"
+  "generatedAt": "2026-11-24T14:35:50Z"
 }
