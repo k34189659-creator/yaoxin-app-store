@@ -515,20 +515,34 @@
       "packageName": "com.xiaojing.autocrop",
       "tagPrefix": "autocrop",
       "latest": {
-        "versionName": "1.2.0",
-        "versionCode": 8,
-        "tag": "autocrop-v1.2.0",
-        "releaseName": "瑤芯自動截圖 1.2.0",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.2.0",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.2.0/yaoxin-autocrop-1.2.0.apk",
-        "assetName": "yaoxin-autocrop-1.2.0.apk",
-        "sha256": "a3546dcb69f1cf968b3f44ae899b9c3117e46326dd8ce615409fe117ed075797",
-        "sizeBytes": 11396635,
-        "publishedAt": "2026-11-20T21:35:16Z",
-        "changelog": "更名瑤芯自動裁剪器；長圖放大精修、旋轉、邊界微調、裁前裁後預覽、撤銷重做；多選匯出與相對邊距套用；批次工作跨畫面重建與草稿恢復；修正 EXIF 座標與降採樣邊界；成品補零序號保留匯入順序",
+        "versionName": "1.4.3-test",
+        "versionCode": 15,
+        "tag": "autocrop-v1.4.3-test",
+        "releaseName": "瑤芯自動截圖 1.4.3-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.4.3-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.4.3-test/yaoxin-autocrop-1.4.3-test.apk",
+        "assetName": "yaoxin-autocrop-1.4.3-test.apk",
+        "sha256": "46a03ff5bba1051a625740c31cce3501bc34eb2a23a2341a925f2765f187d8e2",
+        "sizeBytes": 12803533,
+        "publishedAt": "2026-11-26T03:15:24Z",
+        "changelog": "新增 Google Drive 雲端存取介面；修正抖音分享連結解析（中文標點不再被併入網址）；修正自訂壓縮檔名會變成 zip.zip 的問題。",
         "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
       },
       "versions": [
+        {
+          "versionName": "1.4.3-test",
+          "versionCode": 15,
+          "tag": "autocrop-v1.4.3-test",
+          "releaseName": "瑤芯自動截圖 1.4.3-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.4.3-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.4.3-test/yaoxin-autocrop-1.4.3-test.apk",
+          "assetName": "yaoxin-autocrop-1.4.3-test.apk",
+          "sha256": "46a03ff5bba1051a625740c31cce3501bc34eb2a23a2341a925f2765f187d8e2",
+          "sizeBytes": 12803533,
+          "publishedAt": "2026-11-26T03:15:24Z",
+          "changelog": "新增 Google Drive 雲端存取介面；修正抖音分享連結解析（中文標點不再被併入網址）；修正自訂壓縮檔名會變成 zip.zip 的問題。",
+          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
+        },
         {
           "versionName": "1.2.0",
           "versionCode": 8,
@@ -864,5 +878,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-25T22:49:13Z"
+  "generatedAt": "2026-11-26T03:16:25Z"
 }
