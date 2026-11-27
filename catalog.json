@@ -255,20 +255,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.35.0-test",
-        "versionCode": 83,
-        "tag": "filemanager-v0.35.0-test",
-        "releaseName": "瑤芯檔案管理器 0.35.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.35.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.35.0-test/yaoxin-filemanager-0.35.0-test.apk",
-        "assetName": "yaoxin-filemanager-0.35.0-test.apk",
-        "sha256": "33c317cceb2beee39c3636ead4608f6230c1f6b6ff117046518ee6f40c4bd839",
-        "sizeBytes": 14940206,
-        "publishedAt": "2026-11-27T11:15:05Z",
-        "changelog": "UI v2 打磨版：珍珠面板與雙色圖標、54／48dp 操作家族；瀏覽、分類、搜尋、回收站、檢視、雲端與下載列表、掃描、工具與設定重新編排，雲端下載列表首頁優先。",
+        "versionName": "0.36.1-test",
+        "versionCode": 84,
+        "tag": "filemanager-v0.36.1-test",
+        "releaseName": "瑤芯檔案管理器 0.36.1-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.36.1-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.36.1-test/yaoxin-filemanager-0.36.1-test.apk",
+        "assetName": "yaoxin-filemanager-0.36.1-test.apk",
+        "sha256": "d8fc71196c1b5d8399f01f089bf9b8d2f4a94a2ff1ea4b8bdd0f677f668c170e",
+        "sizeBytes": 15233533,
+        "publishedAt": "2026-11-27T16:48:49Z",
+        "changelog": "V6 視覺系統：黑櫻緞帶 × 珍珠霧櫻（日間）／深梅星銀（夜間），角色素材 v1.1；檔案管理器全面套用。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.36.1-test",
+          "versionCode": 84,
+          "tag": "filemanager-v0.36.1-test",
+          "releaseName": "瑤芯檔案管理器 0.36.1-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.36.1-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.36.1-test/yaoxin-filemanager-0.36.1-test.apk",
+          "assetName": "yaoxin-filemanager-0.36.1-test.apk",
+          "sha256": "d8fc71196c1b5d8399f01f089bf9b8d2f4a94a2ff1ea4b8bdd0f677f668c170e",
+          "sizeBytes": 15233533,
+          "publishedAt": "2026-11-27T16:48:49Z",
+          "changelog": "V6 視覺系統：黑櫻緞帶 × 珍珠霧櫻（日間）／深梅星銀（夜間），角色素材 v1.1；檔案管理器全面套用。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.35.0-test",
           "versionCode": 83,
@@ -892,5 +906,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T11:15:50Z"
+  "generatedAt": "2026-11-27T16:48:55Z"
 }
