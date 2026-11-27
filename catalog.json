@@ -693,20 +693,34 @@
       "packageName": "tw.dafeiyu.musicplayer",
       "tagPrefix": "musicplayer",
       "latest": {
-        "versionName": "0.7.0-test",
-        "versionCode": 11,
-        "tag": "musicplayer-v0.7.0-test",
-        "releaseName": "瑤芯音樂播放器 0.7.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.7.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.7.0-test/yaoxin-musicplayer-0.7.0-test.apk",
-        "assetName": "yaoxin-musicplayer-0.7.0-test.apk",
-        "sha256": "41f917edab202ddd1a5ea1cd96db9e93040c6cb8110508f25fd439021f9962fc",
-        "sizeBytes": 17738146,
-        "publishedAt": "2026-11-27T02:07:55Z",
-        "changelog": "音樂播放器 0.7.0：與檔案管理器／下載器聯動開啟音樂、背景匯入與播放清單管理。",
+        "versionName": "0.8.0-test",
+        "versionCode": 12,
+        "tag": "musicplayer-v0.8.0-test",
+        "releaseName": "瑤芯音樂播放器 0.8.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.8.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.8.0-test/yaoxin-musicplayer-0.8.0-test.apk",
+        "assetName": "yaoxin-musicplayer-0.8.0-test.apk",
+        "sha256": "0d29563320b4ecd0ee5b8e16bd42263f69ad301db6d2a23e20fb4e3861ba27bd",
+        "sizeBytes": 18112072,
+        "publishedAt": "2026-11-27T09:52:26Z",
+        "changelog": "UI v2：曲庫、播放、歌詞、佇列、歌單、雲端、設定與對話框重排；已有歌曲時精簡引導，360dp 首屏可直接看到歌曲。",
         "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
       },
       "versions": [
+        {
+          "versionName": "0.8.0-test",
+          "versionCode": 12,
+          "tag": "musicplayer-v0.8.0-test",
+          "releaseName": "瑤芯音樂播放器 0.8.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.8.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.8.0-test/yaoxin-musicplayer-0.8.0-test.apk",
+          "assetName": "yaoxin-musicplayer-0.8.0-test.apk",
+          "sha256": "0d29563320b4ecd0ee5b8e16bd42263f69ad301db6d2a23e20fb4e3861ba27bd",
+          "sizeBytes": 18112072,
+          "publishedAt": "2026-11-27T09:52:26Z",
+          "changelog": "UI v2：曲庫、播放、歌詞、佇列、歌單、雲端、設定與對話框重排；已有歌曲時精簡引導，360dp 首屏可直接看到歌曲。",
+          "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
+        },
         {
           "versionName": "0.7.0-test",
           "versionCode": 11,
@@ -794,5 +808,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T09:52:20Z"
+  "generatedAt": "2026-11-27T09:52:58Z"
 }
