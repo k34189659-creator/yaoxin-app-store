@@ -735,20 +735,34 @@
       "packageName": "tw.dafeiyu.mangashelf",
       "tagPrefix": "reader",
       "latest": {
-        "versionName": "1.11.1-test",
-        "versionCode": 42,
-        "tag": "reader-v1.11.1-test",
-        "releaseName": "瑤芯閱讀器 1.11.1-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.11.1-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.11.1-test/yaoxin-reader-1.11.1-test.apk",
-        "assetName": "yaoxin-reader-1.11.1-test.apk",
-        "sha256": "e9cf3551e4d854da09ae85caf217a19dd50a106aee09fa0acd1fdb9bf5b18c5b",
+        "versionName": "1.12.2-test",
+        "versionCode": 45,
+        "tag": "reader-v1.12.2-test",
+        "releaseName": "瑤芯閱讀器 1.12.2-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.12.2-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.12.2-test/yaoxin-reader-1.12.2-test.apk",
+        "assetName": "yaoxin-reader-1.12.2-test.apk",
+        "sha256": "33da638c393de824c6b6bddb67cd9e05ba031841b11961042577e4897e071af1",
         "sizeBytes": 3450699,
-        "publishedAt": "2026-11-27T17:05:46Z",
-        "changelog": "V6 視覺系統修正版：1.11.1 修復外部檔案匯入（ExternalBookActivity）的路徑清理編譯問題，其餘與 1.11.0 相同；保留原書庫與閱讀進度。",
+        "publishedAt": "2026-11-27T19:33:49Z",
+        "changelog": "最小幅度 Android 開啟：保留 CBZ 專用入口、不再把一般 ZIP 登記為漫畫開啟；修正外部書檔名清理字串；其餘閱讀功能不變。",
         "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
       },
       "versions": [
+        {
+          "versionName": "1.12.2-test",
+          "versionCode": 45,
+          "tag": "reader-v1.12.2-test",
+          "releaseName": "瑤芯閱讀器 1.12.2-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.12.2-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.12.2-test/yaoxin-reader-1.12.2-test.apk",
+          "assetName": "yaoxin-reader-1.12.2-test.apk",
+          "sha256": "33da638c393de824c6b6bddb67cd9e05ba031841b11961042577e4897e071af1",
+          "sizeBytes": 3450699,
+          "publishedAt": "2026-11-27T19:33:49Z",
+          "changelog": "最小幅度 Android 開啟：保留 CBZ 專用入口、不再把一般 ZIP 登記為漫畫開啟；修正外部書檔名清理字串；其餘閱讀功能不變。",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        },
         {
           "versionName": "1.11.1-test",
           "versionCode": 42,
@@ -1082,5 +1096,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T19:33:44Z"
+  "generatedAt": "2026-11-27T19:33:53Z"
 }
