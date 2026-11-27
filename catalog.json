@@ -255,20 +255,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.33.0-test",
-        "versionCode": 81,
-        "tag": "filemanager-v0.33.0-test",
-        "releaseName": "瑤芯檔案管理器 0.33.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.33.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.33.0-test/yaoxin-filemanager-0.33.0-test.apk",
-        "assetName": "yaoxin-filemanager-0.33.0-test.apk",
-        "sha256": "879424b82edd3a01489297b796729b21a3010884297d0a03733e0861c50a6679",
-        "sizeBytes": 14940282,
-        "publishedAt": "2026-11-27T09:51:53Z",
-        "changelog": "UI v2：珍珠面板與雙色圖標、統一 54／48dp 操作家族；瀏覽／分類／搜尋／回收站／檢視／雲端與下載列表／掃描／工具／設定全面重排，雲端下載列表首頁優先。",
+        "versionName": "0.35.0-test",
+        "versionCode": 83,
+        "tag": "filemanager-v0.35.0-test",
+        "releaseName": "瑤芯檔案管理器 0.35.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.35.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.35.0-test/yaoxin-filemanager-0.35.0-test.apk",
+        "assetName": "yaoxin-filemanager-0.35.0-test.apk",
+        "sha256": "33c317cceb2beee39c3636ead4608f6230c1f6b6ff117046518ee6f40c4bd839",
+        "sizeBytes": 14940206,
+        "publishedAt": "2026-11-27T11:15:05Z",
+        "changelog": "UI v2 打磨版：珍珠面板與雙色圖標、54／48dp 操作家族；瀏覽、分類、搜尋、回收站、檢視、雲端與下載列表、掃描、工具與設定重新編排，雲端下載列表首頁優先。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.35.0-test",
+          "versionCode": 83,
+          "tag": "filemanager-v0.35.0-test",
+          "releaseName": "瑤芯檔案管理器 0.35.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.35.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.35.0-test/yaoxin-filemanager-0.35.0-test.apk",
+          "assetName": "yaoxin-filemanager-0.35.0-test.apk",
+          "sha256": "33c317cceb2beee39c3636ead4608f6230c1f6b6ff117046518ee6f40c4bd839",
+          "sizeBytes": 14940206,
+          "publishedAt": "2026-11-27T11:15:05Z",
+          "changelog": "UI v2 打磨版：珍珠面板與雙色圖標、54／48dp 操作家族；瀏覽、分類、搜尋、回收站、檢視、雲端與下載列表、掃描、工具與設定重新編排，雲端下載列表首頁優先。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.33.0-test",
           "versionCode": 81,
@@ -836,5 +850,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T10:17:00Z"
+  "generatedAt": "2026-11-27T11:15:13Z"
 }
