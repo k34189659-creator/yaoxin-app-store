@@ -875,20 +875,34 @@
       "packageName": "tw.dafeiyu.musicplayer",
       "tagPrefix": "musicplayer",
       "latest": {
-        "versionName": "0.11.0-test",
-        "versionCode": 16,
-        "tag": "musicplayer-v0.11.0-test",
-        "releaseName": "瑤芯音樂播放器 0.11.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.11.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.11.0-test/yaoxin-musicplayer-0.11.0-test.apk",
-        "assetName": "yaoxin-musicplayer-0.11.0-test.apk",
-        "sha256": "690673b14acc2c73e7ff0c226d589354e4de8ddec14af86991404c8319f9b695",
+        "versionName": "0.12.2-test",
+        "versionCode": 19,
+        "tag": "musicplayer-v0.12.2-test",
+        "releaseName": "瑤芯音樂播放器 0.12.2-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.12.2-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.12.2-test/yaoxin-musicplayer-0.12.2-test.apk",
+        "assetName": "yaoxin-musicplayer-0.12.2-test.apk",
+        "sha256": "01d6d93bf989a64d6dba41cf950f2b8e8197173f9fe19e699aa0113276d72ef7",
         "sizeBytes": 17949962,
-        "publishedAt": "2026-11-27T16:49:13Z",
-        "changelog": "V6 視覺系統全面套用；音樂播放器介面與系列一致。",
+        "publishedAt": "2026-11-27T19:33:16Z",
+        "changelog": "版本基線更新；保留原音樂播放與分享入口。",
         "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
       },
       "versions": [
+        {
+          "versionName": "0.12.2-test",
+          "versionCode": 19,
+          "tag": "musicplayer-v0.12.2-test",
+          "releaseName": "瑤芯音樂播放器 0.12.2-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/musicplayer-v0.12.2-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/musicplayer-v0.12.2-test/yaoxin-musicplayer-0.12.2-test.apk",
+          "assetName": "yaoxin-musicplayer-0.12.2-test.apk",
+          "sha256": "01d6d93bf989a64d6dba41cf950f2b8e8197173f9fe19e699aa0113276d72ef7",
+          "sizeBytes": 17949962,
+          "publishedAt": "2026-11-27T19:33:16Z",
+          "changelog": "版本基線更新；保留原音樂播放與分享入口。",
+          "signerSha256": "0a37817304d02a53b8b49c3777359a73021516d38187ca74bb546c0f7a77a5c9"
+        },
         {
           "versionName": "0.11.0-test",
           "versionCode": 16,
@@ -1018,5 +1032,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T19:33:10Z"
+  "generatedAt": "2026-11-27T19:33:22Z"
 }
