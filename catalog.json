@@ -183,20 +183,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.31.8-test",
-        "versionCode": 78,
-        "tag": "filemanager-v0.31.8-test",
-        "releaseName": "瑤芯檔案管理器 0.31.8-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.31.8-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.31.8-test/yaoxin-filemanager-0.31.8-test.apk",
-        "assetName": "yaoxin-filemanager-0.31.8-test.apk",
-        "sha256": "82adf6fdd24d4b31930e4e9695dc6a1ca38d6aada9ee81c294402679330c659b",
-        "sizeBytes": 14549745,
-        "publishedAt": "2026-11-26T13:00:22Z",
-        "changelog": "新增 Google Drive 雲端檔案與背景傳輸；維持原本檔案瀏覽、複製移動、ZIP、垃圾桶、置頂與排序。",
+        "versionName": "0.32.0-test",
+        "versionCode": 79,
+        "tag": "filemanager-v0.32.0-test",
+        "releaseName": "瑤芯檔案管理器 0.32.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.32.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.32.0-test/yaoxin-filemanager-0.32.0-test.apk",
+        "assetName": "yaoxin-filemanager-0.32.0-test.apk",
+        "sha256": "2dc8656610dd137cc24b029d58b3b7a9caff1830dbc2f14216d51f0951369d30",
+        "sizeBytes": 14549873,
+        "publishedAt": "2026-11-27T02:06:25Z",
+        "changelog": "檔案管理器 0.32.0：與其他瑤芯 App 聯動（點音樂／影片／CBZ 交給對應 App）；維持原有檔案操作。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.32.0-test",
+          "versionCode": 79,
+          "tag": "filemanager-v0.32.0-test",
+          "releaseName": "瑤芯檔案管理器 0.32.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.32.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.32.0-test/yaoxin-filemanager-0.32.0-test.apk",
+          "assetName": "yaoxin-filemanager-0.32.0-test.apk",
+          "sha256": "2dc8656610dd137cc24b029d58b3b7a9caff1830dbc2f14216d51f0951369d30",
+          "sizeBytes": 14549873,
+          "publishedAt": "2026-11-27T02:06:25Z",
+          "changelog": "檔案管理器 0.32.0：與其他瑤芯 App 聯動（點音樂／影片／CBZ 交給對應 App）；維持原有檔案操作。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.31.8-test",
           "versionCode": 78,
@@ -666,5 +680,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T00:17:44Z"
+  "generatedAt": "2026-11-27T02:07:21Z"
 }
