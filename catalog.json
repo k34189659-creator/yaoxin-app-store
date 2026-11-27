@@ -58,31 +58,31 @@
       "tagPrefix": "videoplayer",
       "latest": {
         "versionName": "1.2.0-test",
-        "versionCode": 3,
+        "versionCode": 4,
         "tag": "videoplayer-v1.2.0-test",
         "releaseName": "瑤芯影片播放器 1.2.0-test",
         "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/videoplayer-v1.2.0-test",
         "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/videoplayer-v1.2.0-test/yaoxin-videoplayer-1.2.0-test.apk",
         "assetName": "yaoxin-videoplayer-1.2.0-test.apk",
-        "sha256": "db4117d41d72547cc0520c7d86a827c0a37af021f988849d971dc4154066e8e7",
-        "sizeBytes": 18184698,
+        "sha256": "1fe7a6a8c776853fecc3487b50295ae003896333a8e5a1f9e4f941a47ca579e6",
+        "sizeBytes": 18189394,
         "publishedAt": "2026-11-27T02:09:15Z",
-        "changelog": "影片播放器 1.2.0：與檔案管理器／下載器聯動播放、音訊焦點與播放狀態恢復。",
+        "changelog": "V6 視覺系統全面套用；影片播放器介面與系列一致。",
         "signerSha256": "d1348f8b684d1eb67ed770584f1943d21795df9646a7832199a77ee0db7683b5"
       },
       "versions": [
         {
           "versionName": "1.2.0-test",
-          "versionCode": 3,
+          "versionCode": 4,
           "tag": "videoplayer-v1.2.0-test",
           "releaseName": "瑤芯影片播放器 1.2.0-test",
           "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/videoplayer-v1.2.0-test",
           "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/videoplayer-v1.2.0-test/yaoxin-videoplayer-1.2.0-test.apk",
           "assetName": "yaoxin-videoplayer-1.2.0-test.apk",
-          "sha256": "db4117d41d72547cc0520c7d86a827c0a37af021f988849d971dc4154066e8e7",
-          "sizeBytes": 18184698,
+          "sha256": "1fe7a6a8c776853fecc3487b50295ae003896333a8e5a1f9e4f941a47ca579e6",
+          "sizeBytes": 18189394,
           "publishedAt": "2026-11-27T02:09:15Z",
-          "changelog": "影片播放器 1.2.0：與檔案管理器／下載器聯動播放、音訊焦點與播放狀態恢復。",
+          "changelog": "V6 視覺系統全面套用；影片播放器介面與系列一致。",
           "signerSha256": "d1348f8b684d1eb67ed770584f1943d21795df9646a7832199a77ee0db7683b5"
         }
       ]
@@ -962,5 +962,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T16:49:40Z"
+  "generatedAt": "2026-11-27T16:50:09Z"
 }
