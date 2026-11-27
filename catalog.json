@@ -573,20 +573,34 @@
       "packageName": "tw.dafeiyu.mangashelf",
       "tagPrefix": "reader",
       "latest": {
-        "versionName": "1.7.0-test",
-        "versionCode": 36,
-        "tag": "reader-v1.7.0-test",
-        "releaseName": "瑤芯閱讀器 1.7.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.7.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.7.0-test/yaoxin-reader-1.7.0-test.apk",
-        "assetName": "yaoxin-reader-1.7.0-test.apk",
-        "sha256": "854202bc45f9f94e9acd13d4c9c8ae823215ba175217f0c6c674f52680467cb9",
-        "sizeBytes": 3991371,
-        "publishedAt": "2026-11-27T02:07:27Z",
-        "changelog": "閱讀器 1.7.0：支援外部匯入 ZIP／CBZ 漫畫、與檔案管理器／下載器聯動；保留原書庫與閱讀進度。",
+        "versionName": "1.8.1-test",
+        "versionCode": 38,
+        "tag": "reader-v1.8.1-test",
+        "releaseName": "瑤芯閱讀器 1.8.1-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.8.1-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.8.1-test/yaoxin-reader-1.8.1-test.apk",
+        "assetName": "yaoxin-reader-1.8.1-test.apk",
+        "sha256": "dc399f1c9b13ec2a0bf1aca2cef734f9847cc1e6419b8f30075cb2811182428f",
+        "sizeBytes": 4153767,
+        "publishedAt": "2026-11-27T10:16:50Z",
+        "changelog": "1.8.1：書庫資料救援（library recovery）——修正書庫資料遺失／損毀後的還原流程，保留原有書庫、分類與閱讀進度。",
         "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
       },
       "versions": [
+        {
+          "versionName": "1.8.1-test",
+          "versionCode": 38,
+          "tag": "reader-v1.8.1-test",
+          "releaseName": "瑤芯閱讀器 1.8.1-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.8.1-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.8.1-test/yaoxin-reader-1.8.1-test.apk",
+          "assetName": "yaoxin-reader-1.8.1-test.apk",
+          "sha256": "dc399f1c9b13ec2a0bf1aca2cef734f9847cc1e6419b8f30075cb2811182428f",
+          "sizeBytes": 4153767,
+          "publishedAt": "2026-11-27T10:16:50Z",
+          "changelog": "1.8.1：書庫資料救援（library recovery）——修正書庫資料遺失／損毀後的還原流程，保留原有書庫、分類與閱讀進度。",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        },
         {
           "versionName": "1.7.0-test",
           "versionCode": 36,
@@ -822,5 +836,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T09:53:38Z"
+  "generatedAt": "2026-11-27T10:17:00Z"
 }
