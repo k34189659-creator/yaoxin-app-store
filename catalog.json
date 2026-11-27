@@ -537,20 +537,34 @@
       "packageName": "app.gacha7",
       "tagPrefix": "gacha",
       "latest": {
-        "versionName": "1.44.0-test",
-        "versionCode": 116,
-        "tag": "gacha-v1.44.0-test",
-        "releaseName": "瑤芯遊戲小助手 1.44.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/gacha-v1.44.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/gacha-v1.44.0-test/yaoxin-gacha-1.44.0-test.apk",
-        "assetName": "yaoxin-gacha-1.44.0-test.apk",
-        "sha256": "20ca5057c5068272434a5a362be8876ed2b8fdbfa3f04db26f106d1a4b6bf7f8",
-        "sizeBytes": 19184215,
-        "publishedAt": "2026-11-27T11:15:31Z",
-        "changelog": "UI v2 打磨版：遊戲、帳號、匯入、統計、圖庫、備份、登入介面統一；手機與大字優先單欄、操作列可換行；保留原有頭像與角色素材。",
+        "versionName": "1.45.0-test",
+        "versionCode": 117,
+        "tag": "gacha-v1.45.0-test",
+        "releaseName": "瑤芯遊戲小助手 1.45.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/gacha-v1.45.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/gacha-v1.45.0-test/yaoxin-gacha-1.45.0-test.apk",
+        "assetName": "yaoxin-gacha-1.45.0-test.apk",
+        "sha256": "34455d9e0ab4fa7354dfb40c2be663e2b3f79992bddd920bb194f16a4f1eeafa",
+        "sizeBytes": 19016859,
+        "publishedAt": "2026-11-27T16:49:34Z",
+        "changelog": "V6 視覺系統全面套用；遊戲小助手介面與系列一致，保留原有頭像與角色素材。",
         "signerSha256": "95b2bdfee08f8204d9b6a5af5896915a2ff74f103edfe4ebc11f4ea15da94c51"
       },
       "versions": [
+        {
+          "versionName": "1.45.0-test",
+          "versionCode": 117,
+          "tag": "gacha-v1.45.0-test",
+          "releaseName": "瑤芯遊戲小助手 1.45.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/gacha-v1.45.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/gacha-v1.45.0-test/yaoxin-gacha-1.45.0-test.apk",
+          "assetName": "yaoxin-gacha-1.45.0-test.apk",
+          "sha256": "34455d9e0ab4fa7354dfb40c2be663e2b3f79992bddd920bb194f16a4f1eeafa",
+          "sizeBytes": 19016859,
+          "publishedAt": "2026-11-27T16:49:34Z",
+          "changelog": "V6 視覺系統全面套用；遊戲小助手介面與系列一致，保留原有頭像與角色素材。",
+          "signerSha256": "95b2bdfee08f8204d9b6a5af5896915a2ff74f103edfe4ebc11f4ea15da94c51"
+        },
         {
           "versionName": "1.44.0-test",
           "versionCode": 116,
@@ -948,5 +962,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T16:49:29Z"
+  "generatedAt": "2026-11-27T16:49:40Z"
 }
