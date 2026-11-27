@@ -538,6 +538,42 @@
       ]
     },
     {
+      "id": "com.xiaojing.yaoxinnotebook",
+      "name": "瑤芯的小本本",
+      "packageName": "com.xiaojing.yaoxinnotebook",
+      "tagPrefix": "yaoxinnotebook",
+      "latest": {
+        "versionName": "2.4.0-test",
+        "versionCode": 9,
+        "tag": "yaoxinnotebook-v2.4.0-test",
+        "releaseName": "瑤芯的小本本 2.4.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/yaoxinnotebook-v2.4.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/yaoxinnotebook-v2.4.0-test/yaoxin-yaoxinnotebook-2.4.0-test.apk",
+        "assetName": "yaoxin-yaoxinnotebook-2.4.0-test.apk",
+        "sha256": "4f952a62d2fe1fc29e509ef8d42c333009edb95e044e72d8cbe50a0a13c9c2af",
+        "sizeBytes": 12889006,
+        "publishedAt": "2026-11-27T19:33:28Z",
+        "changelog": "V6 視覺系統與版本基線更新；筆記資料格式與內容不變。",
+        "signerSha256": "0356e1877e9c319bb4abf87bf7a165d61f7600c83bf1de1692ae1d5dd2b9ca21"
+      },
+      "versions": [
+        {
+          "versionName": "2.4.0-test",
+          "versionCode": 9,
+          "tag": "yaoxinnotebook-v2.4.0-test",
+          "releaseName": "瑤芯的小本本 2.4.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/yaoxinnotebook-v2.4.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/yaoxinnotebook-v2.4.0-test/yaoxin-yaoxinnotebook-2.4.0-test.apk",
+          "assetName": "yaoxin-yaoxinnotebook-2.4.0-test.apk",
+          "sha256": "4f952a62d2fe1fc29e509ef8d42c333009edb95e044e72d8cbe50a0a13c9c2af",
+          "sizeBytes": 12889006,
+          "publishedAt": "2026-11-27T19:33:28Z",
+          "changelog": "V6 視覺系統與版本基線更新；筆記資料格式與內容不變。",
+          "signerSha256": "0356e1877e9c319bb4abf87bf7a165d61f7600c83bf1de1692ae1d5dd2b9ca21"
+        }
+      ]
+    },
+    {
       "id": "tw.yaoxin.dragonvillage",
       "name": "瑤芯的龍龍村",
       "packageName": "tw.yaoxin.dragonvillage",
@@ -1032,5 +1068,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T19:33:22Z"
+  "generatedAt": "2026-11-27T19:33:34Z"
 }
