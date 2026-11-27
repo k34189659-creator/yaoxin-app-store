@@ -269,20 +269,34 @@
       "packageName": "tw.dafeiyu.filemanager",
       "tagPrefix": "filemanager",
       "latest": {
-        "versionName": "0.36.1-test",
-        "versionCode": 84,
-        "tag": "filemanager-v0.36.1-test",
-        "releaseName": "瑤芯檔案管理器 0.36.1-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.36.1-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.36.1-test/yaoxin-filemanager-0.36.1-test.apk",
-        "assetName": "yaoxin-filemanager-0.36.1-test.apk",
-        "sha256": "d8fc71196c1b5d8399f01f089bf9b8d2f4a94a2ff1ea4b8bdd0f677f668c170e",
-        "sizeBytes": 15233533,
-        "publishedAt": "2026-11-27T16:48:49Z",
-        "changelog": "V6 視覺系統：黑櫻緞帶 × 珍珠霧櫻（日間）／深梅星銀（夜間），角色素材 v1.1；檔案管理器全面套用。",
+        "versionName": "0.37.2-test",
+        "versionCode": 87,
+        "tag": "filemanager-v0.37.2-test",
+        "releaseName": "瑤芯檔案管理器 0.37.2-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.37.2-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.37.2-test/yaoxin-filemanager-0.37.2-test.apk",
+        "assetName": "yaoxin-filemanager-0.37.2-test.apk",
+        "sha256": "160782ba3540dc8b12b6747701ae6c359173b53462587fa29d655918ce6c0c60",
+        "sizeBytes": 15233645,
+        "publishedAt": "2026-11-27T19:32:42Z",
+        "changelog": "最小幅度 Android 開啟：新增 .ExternalFileActivity（帶 MIME 的 content URI 外部開啟）、修正選檔 MIME 與 ClipData 回傳、委派外部開啟排除自身避免循環；雲端核心未動。",
         "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
       },
       "versions": [
+        {
+          "versionName": "0.37.2-test",
+          "versionCode": 87,
+          "tag": "filemanager-v0.37.2-test",
+          "releaseName": "瑤芯檔案管理器 0.37.2-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/filemanager-v0.37.2-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/filemanager-v0.37.2-test/yaoxin-filemanager-0.37.2-test.apk",
+          "assetName": "yaoxin-filemanager-0.37.2-test.apk",
+          "sha256": "160782ba3540dc8b12b6747701ae6c359173b53462587fa29d655918ce6c0c60",
+          "sizeBytes": 15233645,
+          "publishedAt": "2026-11-27T19:32:42Z",
+          "changelog": "最小幅度 Android 開啟：新增 .ExternalFileActivity（帶 MIME 的 content URI 外部開啟）、修正選檔 MIME 與 ClipData 回傳、委派外部開啟排除自身避免循環；雲端核心未動。",
+          "signerSha256": "d6770669fefc80a3102de268a726ed672198794354508a67ce87a8e2b5934f48"
+        },
         {
           "versionName": "0.36.1-test",
           "versionCode": 84,
@@ -976,5 +990,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T17:05:51Z"
+  "generatedAt": "2026-11-27T19:32:47Z"
 }
