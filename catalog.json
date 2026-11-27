@@ -390,98 +390,6 @@
       ]
     },
     {
-      "id": "com.xiaojing.autocrop",
-      "name": "瑤芯自動截圖",
-      "packageName": "com.xiaojing.autocrop",
-      "tagPrefix": "autocrop",
-      "latest": {
-        "versionName": "1.4.3-test",
-        "versionCode": 15,
-        "tag": "autocrop-v1.4.3-test",
-        "releaseName": "瑤芯自動截圖 1.4.3-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.4.3-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.4.3-test/yaoxin-autocrop-1.4.3-test.apk",
-        "assetName": "yaoxin-autocrop-1.4.3-test.apk",
-        "sha256": "46a03ff5bba1051a625740c31cce3501bc34eb2a23a2341a925f2765f187d8e2",
-        "sizeBytes": 12803533,
-        "publishedAt": "2026-11-26T03:15:24Z",
-        "changelog": "新增 Google Drive 雲端存取介面；修正抖音分享連結解析（中文標點不再被併入網址）；修正自訂壓縮檔名會變成 zip.zip 的問題。",
-        "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
-      },
-      "versions": [
-        {
-          "versionName": "1.4.3-test",
-          "versionCode": 15,
-          "tag": "autocrop-v1.4.3-test",
-          "releaseName": "瑤芯自動截圖 1.4.3-test",
-          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.4.3-test",
-          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.4.3-test/yaoxin-autocrop-1.4.3-test.apk",
-          "assetName": "yaoxin-autocrop-1.4.3-test.apk",
-          "sha256": "46a03ff5bba1051a625740c31cce3501bc34eb2a23a2341a925f2765f187d8e2",
-          "sizeBytes": 12803533,
-          "publishedAt": "2026-11-26T03:15:24Z",
-          "changelog": "新增 Google Drive 雲端存取介面；修正抖音分享連結解析（中文標點不再被併入網址）；修正自訂壓縮檔名會變成 zip.zip 的問題。",
-          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
-        },
-        {
-          "versionName": "1.2.0",
-          "versionCode": 8,
-          "tag": "autocrop-v1.2.0",
-          "releaseName": "瑤芯自動截圖 1.2.0",
-          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.2.0",
-          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.2.0/yaoxin-autocrop-1.2.0.apk",
-          "assetName": "yaoxin-autocrop-1.2.0.apk",
-          "sha256": "a3546dcb69f1cf968b3f44ae899b9c3117e46326dd8ce615409fe117ed075797",
-          "sizeBytes": 11396635,
-          "publishedAt": "2026-11-20T21:35:16Z",
-          "changelog": "更名瑤芯自動裁剪器；長圖放大精修、旋轉、邊界微調、裁前裁後預覽、撤銷重做；多選匯出與相對邊距套用；批次工作跨畫面重建與草稿恢復；修正 EXIF 座標與降採樣邊界；成品補零序號保留匯入順序",
-          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
-        },
-        {
-          "versionName": "1.1.3",
-          "versionCode": 7,
-          "tag": "autocrop-v1.1.3",
-          "releaseName": "瑤芯自動截圖 1.1.3",
-          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.3",
-          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.3/yaoxin-autocrop-1.1.3.apk",
-          "assetName": "yaoxin-autocrop-1.1.3.apk",
-          "sha256": "2d529b200beb42be5a8ae9fa21ae9d05408292581b5d19e0bf19f098b8b4a72a",
-          "sizeBytes": 11294187,
-          "publishedAt": "2026-11-19T14:05:31Z",
-          "changelog": "圖示適配更新：滿版 72%＋左上偏移、無投影、角落取色，桌面大小與形狀一致",
-          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
-        },
-        {
-          "versionName": "1.1.2",
-          "versionCode": 6,
-          "tag": "autocrop-v1.1.2",
-          "releaseName": "瑤芯自動截圖 1.1.2",
-          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.2",
-          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.2/yaoxin-autocrop-1.1.2.apk",
-          "assetName": "yaoxin-autocrop-1.1.2.apk",
-          "sha256": "969e9522697e57dfa3420757e5f254dfeaaa1e40c2b553f73dcc42e2597ce814",
-          "sizeBytes": 11103391,
-          "publishedAt": "2026-11-19T12:57:57Z",
-          "changelog": "圖示更新：更換為定稿版瑤芯品牌圖示（自適應圖示，右下角瑤芯角標完整保留）",
-          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
-        },
-        {
-          "versionName": "1.1.1",
-          "versionCode": 5,
-          "tag": "autocrop-v1.1.1",
-          "releaseName": "瑤芯自動截圖 1.1.1",
-          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/autocrop-v1.1.1",
-          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/autocrop-v1.1.1/yaoxin-autocrop-1.1.1.apk",
-          "assetName": "yaoxin-autocrop-1.1.1.apk",
-          "sha256": "c7b6f21bdd017b939607bce5a0824bccfeceda8f7a21632bd23d32a68dcee6e8",
-          "sizeBytes": 10736875,
-          "publishedAt": "2026-11-18T18:08:29Z",
-          "changelog": "瑤芯自動截圖 1.1.1 首次上架瑤芯應用商店。",
-          "signerSha256": "144cabce2601adaedbe68b5181247d331d00a25f6f85e447636994e9080043de"
-        }
-      ]
-    },
-    {
       "id": "app.gacha7",
       "name": "瑤芯遊戲小助手",
       "packageName": "app.gacha7",
@@ -758,5 +666,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-26T13:54:41Z"
+  "generatedAt": "2026-11-27T00:17:44Z"
 }
