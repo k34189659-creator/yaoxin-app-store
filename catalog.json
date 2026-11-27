@@ -571,20 +571,34 @@
       "packageName": "com.xiaojing.yaoxinnotebook",
       "tagPrefix": "yaoxinnotebook",
       "latest": {
-        "versionName": "2.4.0-test",
-        "versionCode": 9,
-        "tag": "yaoxinnotebook-v2.4.0-test",
-        "releaseName": "瑤芯的小本本 2.4.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/yaoxinnotebook-v2.4.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/yaoxinnotebook-v2.4.0-test/yaoxin-yaoxinnotebook-2.4.0-test.apk",
-        "assetName": "yaoxin-yaoxinnotebook-2.4.0-test.apk",
-        "sha256": "4f952a62d2fe1fc29e509ef8d42c333009edb95e044e72d8cbe50a0a13c9c2af",
-        "sizeBytes": 12889006,
-        "publishedAt": "2026-11-27T19:33:28Z",
-        "changelog": "V6 視覺系統與版本基線更新；筆記資料格式與內容不變。",
+        "versionName": "2.5.1-test",
+        "versionCode": 12,
+        "tag": "yaoxinnotebook-v2.5.1-test",
+        "releaseName": "瑤芯的小本本 2.5.1-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/yaoxinnotebook-v2.5.1-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/yaoxinnotebook-v2.5.1-test/yaoxin-yaoxinnotebook-2.5.1-test.apk",
+        "assetName": "yaoxin-yaoxinnotebook-2.5.1-test.apk",
+        "sha256": "3d121277801762283a85bae45770be2168aba602ded94a2b51d62f8039a3eb1a",
+        "sizeBytes": 12906002,
+        "publishedAt": "2026-11-27T21:26:34Z",
+        "changelog": "小本本 2.5.1：修正行事曆版面回歸測試與實際 UI 不一致（改用現有 btnModeMonth／btnPrevMonth 等入口），行事曆日/月檢視與筆記資料不變。",
         "signerSha256": "0356e1877e9c319bb4abf87bf7a165d61f7600c83bf1de1692ae1d5dd2b9ca21"
       },
       "versions": [
+        {
+          "versionName": "2.5.1-test",
+          "versionCode": 12,
+          "tag": "yaoxinnotebook-v2.5.1-test",
+          "releaseName": "瑤芯的小本本 2.5.1-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/yaoxinnotebook-v2.5.1-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/yaoxinnotebook-v2.5.1-test/yaoxin-yaoxinnotebook-2.5.1-test.apk",
+          "assetName": "yaoxin-yaoxinnotebook-2.5.1-test.apk",
+          "sha256": "3d121277801762283a85bae45770be2168aba602ded94a2b51d62f8039a3eb1a",
+          "sizeBytes": 12906002,
+          "publishedAt": "2026-11-27T21:26:34Z",
+          "changelog": "小本本 2.5.1：修正行事曆版面回歸測試與實際 UI 不一致（改用現有 btnModeMonth／btnPrevMonth 等入口），行事曆日/月檢視與筆記資料不變。",
+          "signerSha256": "0356e1877e9c319bb4abf87bf7a165d61f7600c83bf1de1692ae1d5dd2b9ca21"
+        },
         {
           "versionName": "2.4.0-test",
           "versionCode": 9,
@@ -1124,5 +1138,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T21:12:07Z"
+  "generatedAt": "2026-11-27T21:26:42Z"
 }
