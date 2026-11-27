@@ -2,6 +2,42 @@
   "schemaVersion": 1,
   "apps": [
     {
+      "id": "com.xiaojing.yaoxinvideoplayer",
+      "name": "瑤芯影片播放器",
+      "packageName": "com.xiaojing.yaoxinvideoplayer",
+      "tagPrefix": "videoplayer",
+      "latest": {
+        "versionName": "1.2.0-test",
+        "versionCode": 3,
+        "tag": "videoplayer-v1.2.0-test",
+        "releaseName": "瑤芯影片播放器 1.2.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/videoplayer-v1.2.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/videoplayer-v1.2.0-test/yaoxin-videoplayer-1.2.0-test.apk",
+        "assetName": "yaoxin-videoplayer-1.2.0-test.apk",
+        "sha256": "db4117d41d72547cc0520c7d86a827c0a37af021f988849d971dc4154066e8e7",
+        "sizeBytes": 18184698,
+        "publishedAt": "2026-11-27T02:09:15Z",
+        "changelog": "影片播放器 1.2.0：與檔案管理器／下載器聯動播放、音訊焦點與播放狀態恢復。",
+        "signerSha256": "d1348f8b684d1eb67ed770584f1943d21795df9646a7832199a77ee0db7683b5"
+      },
+      "versions": [
+        {
+          "versionName": "1.2.0-test",
+          "versionCode": 3,
+          "tag": "videoplayer-v1.2.0-test",
+          "releaseName": "瑤芯影片播放器 1.2.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/videoplayer-v1.2.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/videoplayer-v1.2.0-test/yaoxin-videoplayer-1.2.0-test.apk",
+          "assetName": "yaoxin-videoplayer-1.2.0-test.apk",
+          "sha256": "db4117d41d72547cc0520c7d86a827c0a37af021f988849d971dc4154066e8e7",
+          "sizeBytes": 18184698,
+          "publishedAt": "2026-11-27T02:09:15Z",
+          "changelog": "影片播放器 1.2.0：與檔案管理器／下載器聯動播放、音訊焦點與播放狀態恢復。",
+          "signerSha256": "d1348f8b684d1eb67ed770584f1943d21795df9646a7832199a77ee0db7683b5"
+        }
+      ]
+    },
+    {
       "id": "tw.dafeiyu.store",
       "name": "瑤芯應用商店",
       "packageName": "tw.dafeiyu.store",
@@ -708,5 +744,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T02:09:09Z"
+  "generatedAt": "2026-11-27T02:10:32Z"
 }
