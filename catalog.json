@@ -7,20 +7,34 @@
       "packageName": "com.xiaojing.yaoxindownloader",
       "tagPrefix": "downloader",
       "latest": {
-        "versionName": "2.1.0-test",
-        "versionCode": 13,
-        "tag": "downloader-v2.1.0-test",
-        "releaseName": "瑤芯下載器 2.1.0-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/downloader-v2.1.0-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/downloader-v2.1.0-test/yaoxin-downloader-2.1.0-test.apk",
-        "assetName": "yaoxin-downloader-2.1.0-test.apk",
-        "sha256": "3a66c1c3bb9b57700f563d1b200be3f3765a42eaf81e60104eedc8caa5bd3401",
-        "sizeBytes": 14668814,
-        "publishedAt": "2026-11-27T02:10:39Z",
-        "changelog": "影音下載器 2.1.0：整併自動裁剪與影音下載，與系列播放器／閱讀器聯動。",
+        "versionName": "2.2.0-test",
+        "versionCode": 14,
+        "tag": "downloader-v2.2.0-test",
+        "releaseName": "瑤芯下載器 2.2.0-test",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/downloader-v2.2.0-test",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/downloader-v2.2.0-test/yaoxin-downloader-2.2.0-test.apk",
+        "assetName": "yaoxin-downloader-2.2.0-test.apk",
+        "sha256": "bf49665b1ec9dd36d3684f796cb127de392e250c4a564c14eb97d84eb82c8ef5",
+        "sizeBytes": 14239702,
+        "publishedAt": "2026-11-27T16:49:00Z",
+        "changelog": "V6 視覺系統全面套用；下載器介面與系列一致。",
         "signerSha256": "25612fdf24f8848075a1bed96dc53c0fe5a6e6e4897552ab3b4b7f94fd4a0e71"
       },
       "versions": [
+        {
+          "versionName": "2.2.0-test",
+          "versionCode": 14,
+          "tag": "downloader-v2.2.0-test",
+          "releaseName": "瑤芯下載器 2.2.0-test",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/downloader-v2.2.0-test",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/downloader-v2.2.0-test/yaoxin-downloader-2.2.0-test.apk",
+          "assetName": "yaoxin-downloader-2.2.0-test.apk",
+          "sha256": "bf49665b1ec9dd36d3684f796cb127de392e250c4a564c14eb97d84eb82c8ef5",
+          "sizeBytes": 14239702,
+          "publishedAt": "2026-11-27T16:49:00Z",
+          "changelog": "V6 視覺系統全面套用；下載器介面與系列一致。",
+          "signerSha256": "25612fdf24f8848075a1bed96dc53c0fe5a6e6e4897552ab3b4b7f94fd4a0e71"
+        },
         {
           "versionName": "2.1.0-test",
           "versionCode": 13,
@@ -906,5 +920,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T16:48:55Z"
+  "generatedAt": "2026-11-27T16:49:06Z"
 }
