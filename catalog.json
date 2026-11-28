@@ -763,20 +763,34 @@
       "packageName": "tw.dafeiyu.mangashelf",
       "tagPrefix": "reader",
       "latest": {
-        "versionName": "1.12.3-test",
-        "versionCode": 46,
-        "tag": "reader-v1.12.3-test",
-        "releaseName": "瑤芯閱讀器 1.12.3-test",
-        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.12.3-test",
-        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.12.3-test/yaoxin-reader-1.12.3-test.apk",
-        "assetName": "yaoxin-reader-1.12.3-test.apk",
-        "sha256": "eaeb7a9173a4ab70f75fc02ea594350c794f9a3180e09530f73a137b94b17153",
-        "sizeBytes": 3450755,
-        "publishedAt": "2026-11-27T21:12:03Z",
-        "changelog": "行事曆相關調整與版本基線更新；閱讀、書庫與匯入功能不變。",
+        "versionName": "1.15.0",
+        "versionCode": 53,
+        "tag": "reader-v1.15.0",
+        "releaseName": "瑤芯閱讀器 1.15.0",
+        "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.15.0",
+        "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.15.0/yaoxin-reader-1.15.0.apk",
+        "assetName": "yaoxin-reader-1.15.0.apk",
+        "sha256": "8cbc29fde2bd449d1d997a193c87099d632ddfbb05eb0d99916f6ce0b526b7ff",
+        "sizeBytes": 3475331,
+        "publishedAt": "2026-11-28T16:34:07Z",
+        "changelog": "閱讀器 1.15.0：延續書庫救援與 V6 介面，修正與效能調整；保留原有書庫、分類與閱讀進度。",
         "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
       },
       "versions": [
+        {
+          "versionName": "1.15.0",
+          "versionCode": 53,
+          "tag": "reader-v1.15.0",
+          "releaseName": "瑤芯閱讀器 1.15.0",
+          "releaseUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/tag/reader-v1.15.0",
+          "downloadUrl": "https://github.com/k34189659-creator/yaoxin-app-store/releases/download/reader-v1.15.0/yaoxin-reader-1.15.0.apk",
+          "assetName": "yaoxin-reader-1.15.0.apk",
+          "sha256": "8cbc29fde2bd449d1d997a193c87099d632ddfbb05eb0d99916f6ce0b526b7ff",
+          "sizeBytes": 3475331,
+          "publishedAt": "2026-11-28T16:34:07Z",
+          "changelog": "閱讀器 1.15.0：延續書庫救援與 V6 介面，修正與效能調整；保留原有書庫、分類與閱讀進度。",
+          "signerSha256": "96ead52e78683f043fbfbd69ccffbaea97d77f39825b24649732e9ca1e7b450c"
+        },
         {
           "versionName": "1.12.3-test",
           "versionCode": 46,
@@ -1138,5 +1152,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-27T21:26:42Z"
+  "generatedAt": "2026-11-28T16:34:10Z"
 }
